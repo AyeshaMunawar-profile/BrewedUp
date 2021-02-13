@@ -5,10 +5,11 @@
     --white: #fffffe;
     --light-coffee: #eaddcf;
     --coffee: #8c7851;
+    font-size: 1rem !important;
     }
 .normal-text{
     font-family: 'Lato', sans-serif;
 }
-.navbar-brand .brand-logo{
-    height: 100px; !important;
+.brand-logo{
+    height: 80px;
 }

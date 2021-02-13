@@ -1,6 +1,14 @@
 :root{
     font-family: 'Playfair Display', serif;
-}
+    --black: #020826;
+    --lightest-coffee: #f9f4ef;
+    --white: #fffffe;
+    --light-coffee: #eaddcf;
+    --coffee: #8c7851;
+    }
 .normal-text{
     font-family: 'Lato', sans-serif;
+}
+.navbar-brand .brand-logo{
+    height: 100px; !important;
 }

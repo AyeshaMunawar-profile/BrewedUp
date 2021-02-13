@@ -2,8 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf7430d6-b45c-4214-acd3-f30928eabe86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_alerts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_badges.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_checkbox-radio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_examples.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_footers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_headers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_inputs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_navbars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_nucleo-icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_nucleo-outline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_progress-bars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_sections.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_sliders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_social-buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_tabs-navs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_tags.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_tooltips-and-popovers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/cards/_card-plain.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/cards/_card-profile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/cards/_card-register.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/mixins/_alerts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/mixins/_inputs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/mixins/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/mixins/_navbars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/mixins/_popovers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/mixins/_tabs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/mixins/_transparency.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/mixins/_vendor-prefixes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/plugins/_plugin-bootstrap-switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/plugins/_plugin-datepicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/plugins/_plugin-nouislider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/paper-kit/plugins/_plugin-perfect-scrollbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +85,9 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1oQKrR9FSwRd1Ms0e26ywmbKr9A" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,6 +95,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -38,11 +110,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613213572273</updated>
-      <workItem from="1613213574122" duration="2865000" />
+      <workItem from="1613213574122" duration="5742000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

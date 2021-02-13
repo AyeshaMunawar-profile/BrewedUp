@@ -1,0 +1,19 @@
+Logo Colors 
+Brown : #572A17
+Off White : #F5F5EF
+
+Website ccolors 
+Light coffee : #f9f4ef
+Black : #020826
+Coffee brown : #716040
+Light Coffee Brown : #8c7851
+Light : #fffffe
+Accent colors : 
+Accent color : #f25042
+
+illustration color 
+Stroke Black : #8c7851
+Accent color : #f25042
+Secondary color : #eaddcf
+Main Color : #fffffe
+Highlight : #8c7851

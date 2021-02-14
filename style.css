@@ -7,9 +7,29 @@
     --coffee: #8c7851;
     font-size: 1rem !important;
     }
+.text-color-lightest-coffee{
+    color: var(--lightest-coffee) !important;
+}
+.text-color-light-coffee{
+    color: var(--light-coffee) !important;
+}
+.text-color-coffee{
+    color: var(--coffee) !important;
+}
+.text-color-white{
+    color: var(--white) !important;
+}
 .normal-text{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif !important;
+}
+.nav-bar-container{
+    min-width: 96vw ;
+    margin-left: 2vw ;
+    margin-right: 2vw;
 }
 .brand-logo{
     height: 80px;
+}
+.my-logo{
+    height: 30px !important;
 }

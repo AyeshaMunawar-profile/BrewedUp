@@ -33,9 +33,11 @@
 }
 /*Navbar*/
 .nav-bar-container{
-    min-width: 96vw ;
-    margin-left: 2vw ;
-    margin-right: 2vw;
+    min-width: 97vw ;
+    margin-left: 1.5vw ;
+    margin-right: 1.5vw;
+    padding-right: 0px ;
+    padding-left: 0px;
 }
 .brand-logo{
     height: 80px;
@@ -43,7 +45,10 @@
 .my-logo{
     height: 30px !important;
 }
-
+.navbar-brand{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
 
 /*Hover Library Customization*/
 .hvr-underline-from-center:before{

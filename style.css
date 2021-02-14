@@ -1,3 +1,4 @@
+/*General Customizations*/
 :root{
     font-family: 'Playfair Display', serif;
     --black: #020826;
@@ -22,6 +23,7 @@
 .normal-text{
     font-family: 'Lato', sans-serif !important;
 }
+/*Navbar*/
 .nav-bar-container{
     min-width: 96vw ;
     margin-left: 2vw ;
@@ -32,4 +34,10 @@
 }
 .my-logo{
     height: 30px !important;
+}
+
+
+/*Hover Library Customization*/
+.hvr-underline-from-center:before{
+    background-color: var(--light-coffee) !important;
 }

@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf7430d6-b45c-4214-acd3-f30928eabe86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/res/Images/Images/clouds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Images/Images/fog-low.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Logo/BU-Transparent-circle-Border-Icon-White.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Logo/BU-Transparent-circle-Border-White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Images/Images/A.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Images/Header Images/header 2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/res/Images/Header Images/Header 2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Logo/Brewed Up Logo.ai" beforeDir="false" afterPath="$PROJECT_DIR$/res/Logo/Brewed Up Logo.ai" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +42,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613213572273</updated>
-      <workItem from="1613213574122" duration="10416000" />
+      <workItem from="1613213574122" duration="10556000" />
+      <workItem from="1613294472039" duration="3931000" />
     </task>
     <servers />
   </component>
@@ -56,5 +52,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="262" y="353" width="586" height="488" key="find.popup" timestamp="1613294607354">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="262" y="353" width="586" height="488" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613294607354" />
   </component>
 </project>

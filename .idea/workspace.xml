@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf7430d6-b45c-4214-acd3-f30928eabe86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/css/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -42,7 +46,8 @@
       <option name="presentableId" value="Default" />
       <updated>1613213572273</updated>
       <workItem from="1613213574122" duration="10556000" />
-      <workItem from="1613294472039" duration="6316000" />
+      <workItem from="1613294472039" duration="12210000" />
+      <workItem from="1613392412717" duration="3372000" />
     </task>
     <servers />
   </component>

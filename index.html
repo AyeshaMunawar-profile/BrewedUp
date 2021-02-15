@@ -21,7 +21,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/hover-min.css">
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="./assets/css/paper-kit.css" rel="stylesheet"/>
+    <link href="./assets/css/paper-kit.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>
     <!--Custom css file -->
     <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -30,12 +33,12 @@
 
 
 <!--    navbar come here          -->
-<nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="300">
+<nav class="navbar navbar-expand-xl fixed-top navbar-transparent " color-on-scroll="300">
     <div class="container nav-bar-container">
         <div class="navbar-translate">
             <a class="navbar-brand normal-text" href="https://demos.creative-tim.com/paper-kit/index.html" rel="tooltip"
                title="Brewed Up home page" data-placement="bottom" target="_blank">
-                <img src="res/Logo/BU-Transparent-circle-Border-Icon-White.png" class="img-fluid brand-logo mr-2">
+                <img src="res/Logo/BU-White-circle-Border-Icon.png" class="img-fluid brand-logo mr-2">
                 Brewed Up
             </a>
             <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
@@ -50,47 +53,47 @@
                 <li class="nav-item">
                     <a class="nav-link hvr-underline-from-center" href="#" target="_blank">
 
-                        <p class="d-xxl-none">Coffee and Us</p>
+                        <p class="">Coffee and Us</p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link hvr-underline-from-center" href="#" target="_blank">
-                        <p class="d-xxl-none">Coffee in the office</p>
+                        <p class="">Coffee in the office</p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link hvr-underline-from-center" href="#" target="_blank">
-                        <p class="d-xxl-none">Coffee in Vending</p>
+                        <p class="">Coffee in Vending</p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link hvr-underline-from-center" href="#" target="_blank">
-                        <p class="d-xxl-none">Coffee in cafe</p>
+                        <p class="">Coffee in cafe</p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link hvr-underline-from-center" href="#" target="_blank">
-                        <p class="d-xxl-none">Contact Us</p>
+                        <p class="">Contact Us</p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link hvr-underline-from-center" href="#" target="_blank">
-                        <p class="d-xxl-none">Services</p>
+                        <p class="">Services</p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link hvr-underline-from-center" href="#" target="_blank">
-                        <p class="d-xxl-none">Our Coffee</p>
+                        <p class="">Our Coffee</p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link hvr-underline-from-center" href="#" target="_blank">
-                        <p class="d-xxl-none">Office Coffee Machines</p>
+                        <p class="">Office Coffee Machines</p>
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link hvr-underline-from-center" href="#" target="_blank">
-                        <p class="d-xxl-none">GITHUB </p>
+                        <p class="">GITHUB </p>
                     </a>
                 </li>
 
@@ -133,79 +136,121 @@
 
 <!--Section 1 - Our coffee + carousel of all products -->
 <section class="section section-our-coffee">
-    <div class="section-heading section-header ">
+    <div class="section-heading section-header mb-5">
         <h1 class="heading-text text-dark text-center mt-5 mb-3"> Our Coffee </h1>
         <h5 class="text-color-grey text-center font-weight-normal">We have carefully selected great tasting coffees from
             around the world</h5>
     </div>
     <div class="section-content">
-        <div class="products-carousel">
-            <div class="section pt-o" id="carousel">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 ml-auto mr-auto">
-                            <div class="card page-carousel">
-                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    </ol>
-                                    <div class="carousel-inner" role="listbox">
-                                        <div class="carousel-item active">
-                                            <img class="d-block img-fluid" src="res/Images/Images/Coffee3.jpg" alt="First slide">
-                                            <div class="carousel-caption d-none d-md-block">
-                                                <p>Somewhere</p>
-                                            </div>
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block img-fluid" src="res/Images/Images/Coffee4.jpg" alt="Second slide">
-                                            <div class="carousel-caption d-none d-md-block">
-                                                <p>Somewhere else</p>
-                                            </div>
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block img-fluid" src="res/Images/Images/Officecoffee.jpg" alt="Third slide">
-                                            <div class="carousel-caption d-none d-md-block">
-                                                <p>Here it is</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <a class="left carousel-control carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                        <span class="fa fa-angle-left"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="right carousel-control carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                        <span class="fa fa-angle-right"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!--    carousel start-->
+
+<!--carousel end-->
+    </div>
+</section>
+
+<section class="lazy slider" data-sizes="50vw">
+    <div>
+        <img data-lazy="http://placehold.it/350x300?text=1-350w" data-srcset="http://placehold.it/650x300?text=1-650w 650w, http://placehold.it/960x300?text=1-960w 960w" data-sizes="100vw">
+    </div>
+    <div>
+        <img data-lazy="http://placehold.it/350x300?text=2-350w" data-srcset="http://placehold.it/650x300?text=2-650w 650w, http://placehold.it/960x300?text=2-960w 960w" data-sizes="100vw">
+    </div>
+    <div>
+        <img data-lazy="http://placehold.it/350x300?text=3-350w"  data-srcset="http://placehold.it/650x300?text=3-650w 650w, http://placehold.it/960x300?text=3-960w 960w" data-sizes="100vw">
+    </div>
+    <div>
+        <img data-lazy="http://placehold.it/350x300?text=4-350w"  data-srcset="http://placehold.it/650x300?text=4-650w 650w, http://placehold.it/960x300?text=4-960w 960w" data-sizes="100vw">
+    </div>
+    <div>
+        <img data-lazy="http://placehold.it/350x300?text=5-350w"  data-srcset="http://placehold.it/650x300?text=5-650w 650w, http://placehold.it/960x300?text=5-960w 960w" data-sizes="100vw">
+    </div>
+    <div>
+        <!-- this slide should inherit the sizes attr from the parent slider -->
+        <img data-lazy="http://placehold.it/350x300?text=6-350w"  data-srcset="http://placehold.it/650x300?text=6-650w 650w, http://placehold.it/960x300?text=6-960w 960w">
     </div>
 </section>
 </body>
 
 <!-- Core JS Files -->
-<script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
-<script src="./assets/js/jquery-ui.min.js" type="text/javascript"></script>
-<script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
-<script src="./assets/js/bootstrap.min.js" type="text/javascript"></script>
+<!--<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>-->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 
 <!-- Switches -->
-<script src="./assets/js/plugins/bootstrap-switch.js"></script>
+<script src="assets/js/plugins/bootstrap-switch.js"></script>
 
 <!--  Plugins for Slider -->
-<script src="./assets/js/plugins/nouislider.min.js"></script>
+<script src="assets/js/plugins/nouislider.min.js"></script>
 
 <!--  Plugins for DateTimePicker -->
-<script src="./assets/js/plugins/moment.min.js"></script>
-<script src="./assets/js/plugins/bootstrap-datepicker.js"></script>
+<script src="assets/js/plugins/moment.min.js"></script>
+<script src="assets/js/plugins/bootstrap-datepicker.js"></script>
 
 <!--  Paper Kit Initialization snd functons -->
-<script src="./assets/js/paper-kit.js"></script>
+<script src="assets/js/paper-kit.js"></script>
+<!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>-->
+<script type="text/javascript" src="assets/js/slick.js" charset="utf-8"></script>
+<!--<script type="text/javascript" src="index.js"></script>-->
+<script type="text/javascript">
+    $(document).on('ready', function() {
+        // $(".vertical-center-4").slick({
+        //     dots: true,
+        //     vertical: true,
+        //     centerMode: true,
+        //     slidesToShow: 4,
+        //     slidesToScroll: 2
+        // });
+        // $(".vertical-center-3").slick({
+        //     dots: true,
+        //     vertical: true,
+        //     centerMode: true,
+        //     slidesToShow: 3,
+        //     slidesToScroll: 3
+        // });
+        // $(".vertical-center-2").slick({
+        //     dots: true,
+        //     vertical: true,
+        //     centerMode: true,
+        //     slidesToShow: 2,
+        //     slidesToScroll: 2
+        // });
+        // $(".vertical-center").slick({
+        //     dots: true,
+        //     vertical: true,
+        //     centerMode: true,
+        // });
+        // $(".vertical").slick({
+        //     dots: true,
+        //     vertical: true,
+        //     slidesToShow: 3,
+        //     slidesToScroll: 3
+        // });
+        // $(".regular").slick({
+        //     dots: true,
+        //     infinite: true,
+        //     slidesToShow: 3,
+        //     slidesToScroll: 3
+        // });
+        // $(".center").slick({
+        //     dots: true,
+        //     infinite: true,
+        //     centerMode: true,
+        //     slidesToShow: 5,
+        //     slidesToScroll: 3
+        // });
+        // $(".variable").slick({
+        //     dots: true,
+        //     infinite: true,
+        //     variableWidth: true
+        // });
+        $(".lazy").slick({
+            lazyLoad: 'ondemand', // ondemand progressive anticipated
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true
+        });
+    });
+</script>
 </html>

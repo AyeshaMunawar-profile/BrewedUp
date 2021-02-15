@@ -51,8 +51,9 @@
 }
 /*Slick Carousel */
 .slider {
-    width: 50%;
-    margin: 100px auto;
+    width: 80%;
+    margin: 20px auto;
+    background-color: transparent;
 }
 
 .slick-slide {
@@ -65,8 +66,9 @@
 
 .slick-prev:before,
 .slick-next:before {
-    color: black;
+    color: var(--secondary);
 }
+
 @media screen and (max-width: 1200px){
     .navbar-translate {
         width: 100%;
@@ -91,6 +93,7 @@
 .slick-current {
     opacity: 1;
 }
+
 /*Hover Library Customization*/
 .hvr-underline-from-center:before{
     background-color: var(--light-coffee) !important;

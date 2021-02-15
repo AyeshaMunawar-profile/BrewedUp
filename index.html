@@ -152,6 +152,9 @@
     <div><img src="res/Images/Images/Coffee3.jpg"></div>
     <div ><img src="res/Images/Images/Coffee4.jpg"></div>
     <div ><img src="res/Images/Images/Officecoffee.jpg"></div>
+    <div ><img src="res/Images/Images/Officecoffee.jpg"></div>
+    <div ><img src="res/Images/Images/Officecoffee.jpg"></div>
+
 </div>
 <!-- Core JS Files -->
 <!--<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>-->
@@ -178,13 +181,34 @@
 <!--<script type="text/javascript" src="index.js"></script>-->
 <script type="text/javascript">
     $('.one-time').slick({
+        centerMode:true,
+        centerPadding: true,
         dots: true,
         infinite: true,
         speed: 300,
-        slidesToShow: 1,
-        slidesToScroll: 1,
+        slidesToShow: 3,
         adaptiveHeight: true,
-        autoplay: true
+        autoplay: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                }
+            }
+        ]
     });
 </script>
 </body>

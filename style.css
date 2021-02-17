@@ -22,7 +22,7 @@
     color: var(--white) !important;
 }
 .text-color-grey{
-    color: var(--grey)
+    color: var(--grey);
 }
 .normal-text{
     font-family: 'Lato', sans-serif !important;

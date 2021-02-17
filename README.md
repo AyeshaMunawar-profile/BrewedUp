@@ -15,6 +15,7 @@ mission: to make an office and on-the-go cup of coffee that we’d like to drink
 5) PAPER KIT 
 6) GOOGLE FONTS 
 7) FONT AWESOME
+8) Slick Carousel 
 
 **Features**
 1) The website provides a form for the user who want to subscribe to our companies updates and newsletter

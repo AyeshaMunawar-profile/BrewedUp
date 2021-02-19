@@ -32,11 +32,14 @@ $('.one-time').slick({
 $('.slick-center').slick({
     centerMode: true,
     centerPadding: '60px',
+    dots:true,
     speed: 300,
     slidesToShow: 3,
+    adaptiveHeight: true,
+    autoplay: true,
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 992,
             settings: {
                 arrows: true,
                 centerMode: true,

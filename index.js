@@ -36,6 +36,8 @@ $('.slick-center').slick({
     speed: 300,
     slidesToShow: 3,
     adaptiveHeight: true,
+    lazyLoad: 'ondemand',
+    mobileFirst: true,
     autoplay: true,
     responsive: [
         {

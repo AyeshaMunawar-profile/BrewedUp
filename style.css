@@ -68,11 +68,15 @@
     }
 }
 /*Products Carousel*/
+.carousel-item-sub-heading{
+    margin-top: 5px;
+}
 .slick-slide {
     transition: all ease-in-out .3s;
     opacity: .2;
+    outline: none;
 }
-.slick-slide:active{
+.slick-slide:active .carousel-item:active{
     border: none;
     outline: none;
 }

@@ -129,7 +129,7 @@
     background-color: var(--light-coffee) !important;
 }
 .box-border{
-    border:  15px solid var(--coffee-opacity-4);
+    border:  10px solid var(--coffee-opacity-4);
     position: absolute;
     top: 34px;
     width: 91%;
@@ -139,5 +139,13 @@
 .box-border:hover{
     border:  15px solid var(--coffee-opacity-8);
 }
-
+.carousel-item-stamp{
+    max-width: 100px;
+    height: auto;
+    margin-left: 65%;
+}
+.carousel-item-wave{
+   max-width: 50px;
+  height: auto;
+}
 /*Media Queries*/

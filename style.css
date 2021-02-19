@@ -5,8 +5,11 @@
     --lightest-coffee: #f9f4ef;
     --white: #fffffe;
     --light-coffee: #eaddcf;
-    --coffee: #8c7851;
+    --coffee: #b9a787;
+    --coffee-opacity-4: rgba(185, 167, 135, 0.4);
+    --coffee-opacity-8: rgba(185, 167, 135, 0.8);
     --grey: #787878;
+    --yellow: #fbc658;
     font-size: 1rem !important;
     }
 .text-color-lightest-coffee{
@@ -23,6 +26,9 @@
 }
 .text-color-grey{
     color: var(--grey);
+}
+.text-color-yellow{
+    color: var(--yellow);
 }
 .normal-text{
     font-family: 'Lato', sans-serif !important;
@@ -51,7 +57,7 @@
 }
 /*Slick Carousel */
 .slider {
-    width: 80%;
+    width: 95%;
     margin: 20px auto;
     background-color: transparent;
 }
@@ -84,6 +90,16 @@
 .slick-slide {
     transition: all ease-in-out .3s;
     opacity: .2;
+
+
+
+}
+.carousel-item-content{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .slick-active {
@@ -93,8 +109,35 @@
 .slick-current {
     opacity: 1;
 }
+/*Products Carousel*/
+.carousel-item-main-picture{
+    width: 800px;
+    height: auto;
+}
+.carousel-item-caption{
+    z-index: 1;
+    top: 30%;
+}
+.carousel-item-main-heading{
 
+}
+.products-carousel .slick-slide img{
+    width: 40%;
+}
 /*Hover Library Customization*/
 .hvr-underline-from-center:before{
     background-color: var(--light-coffee) !important;
 }
+.box-border{
+    border:  15px solid var(--coffee-opacity-4);
+    position: absolute;
+    top: 34px;
+    width: 91%;
+    height: 90%;
+    z-index: -1;
+}
+.box-border:hover{
+    border:  15px solid var(--coffee-opacity-8);
+}
+
+/*Media Queries*/

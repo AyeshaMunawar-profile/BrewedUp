@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf7430d6-b45c-4214-acd3-f30928eabe86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/res/Logo/Beans Black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Logo/Beans White.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Logo/Beans Yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Logo/Beans.ai" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Logo/Stamp Black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Logo/Stamp Brown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Logo/Stamp Grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Logo/Stamp White.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Logo/Stamp Yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Logo/Stamp.ai" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +46,7 @@
       <workItem from="1613392412717" duration="8139000" />
       <workItem from="1613413979016" duration="602000" />
       <workItem from="1613554185488" duration="760000" />
-      <workItem from="1613731934962" duration="2464000" />
+      <workItem from="1613731934962" duration="13774000" />
     </task>
     <servers />
   </component>

@@ -6,8 +6,8 @@
     --white: #fffffe;
     --light-coffee: #eaddcf;
     --coffee: #b9a787;
-    --coffee-opacity-5: rgba(185, 167, 135, 0.5);
-    --coffee-opacity-7: rgba(185, 167, 135, 0.7);
+    --coffee-opacity-4: rgba(185, 167, 135, 0.4);
+    --coffee-opacity-8: rgba(185, 167, 135, 0.8);
     --grey: #787878;
     --yellow: #fbc658;
     font-size: 1rem !important;
@@ -128,6 +128,16 @@
 .hvr-underline-from-center:before{
     background-color: var(--light-coffee) !important;
 }
-
+.box-border{
+    border:  15px solid var(--coffee-opacity-4);
+    position: absolute;
+    top: 34px;
+    width: 91%;
+    height: 90%;
+    z-index: -1;
+}
+.box-border:hover{
+    border:  15px solid var(--coffee-opacity-8);
+}
 
 /*Media Queries*/

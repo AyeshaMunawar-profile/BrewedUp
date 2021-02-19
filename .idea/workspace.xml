@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf7430d6-b45c-4214-acd3-f30928eabe86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/Kimbo_Prestige_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/Kimbo_Unique_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/Kimbo_bio_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/Kimbo_extra_cream_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/Kimbo_top_flavour_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/Pack_Grani_AROMA_PIU_LATO_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/Pack_Grani_AROMA_TOP_LATO_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/Pack_Grani_CREMA_AROMA_LATO_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/gusto_forte_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/gusto_pieno_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +46,7 @@
       <workItem from="1613392412717" duration="8139000" />
       <workItem from="1613413979016" duration="602000" />
       <workItem from="1613554185488" duration="760000" />
-      <workItem from="1613731934962" duration="13227000" />
+      <workItem from="1613731934962" duration="13774000" />
     </task>
     <servers />
   </component>

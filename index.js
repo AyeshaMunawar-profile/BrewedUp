@@ -41,7 +41,7 @@ $('.slick-center').slick({
     autoplay: true,
     responsive: [
         {
-            breakpoint: 992,
+            breakpoint: 1200,
             settings: {
                 arrows: true,
                 centerMode: true,
@@ -52,11 +52,12 @@ $('.slick-center').slick({
             }
         },
         {
-            breakpoint: 768,
+            breakpoint: 992,
             settings: {
                 arrows: false,
                 centerMode: true,
                 centerPadding: '40px',
+                slidesToScroll: 2,
                 slidesToShow: 2
             }
         },
@@ -66,6 +67,7 @@ $('.slick-center').slick({
                 arrows: false,
                 centerMode: true,
                 centerPadding: '40px',
+                slidesToScroll: 1,
                 slidesToShow: 1
             }
         }

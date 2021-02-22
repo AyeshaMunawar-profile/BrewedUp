@@ -148,8 +148,9 @@
     height: 90%;
     z-index: -1;
 }
-.box-border:hover{
-    border: 12px solid var(--coffee-opacity-8);
+.box-border-dark{
+    border: 10px solid var(--coffee-opacity-8);
+    transition: all 0.5s ease-in-out;
 }
 .carousel-item-stamp{
     max-width: 100px;

@@ -6,8 +6,8 @@
     --white: #fffffe;
     --light-coffee: #eaddcf;
     --coffee: #b9a787;
-    --coffee-opacity-4: rgba(185, 167, 135, 0.4);
-    --coffee-opacity-8: rgba(185, 167, 135, 0.8);
+    --coffee-opacity-4: rgba(185, 167, 135, 0.3);
+    --coffee-opacity-8: rgba(185, 167, 135, 0.7);
     --grey: #787878;
     --yellow: #fbc658;
     font-size: 1rem !important;

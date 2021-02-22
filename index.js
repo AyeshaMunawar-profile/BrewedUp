@@ -1,14 +1,20 @@
 $(document).ready(function () {
     let changeBorderColor = function(event) {
-       let targetID= event.target.lastChild.previousSibling.id;
-       document.getElementById(targetID).classList.toggle("box-border-dark");
+        console.log(event.target.lastChild.previousSibling);
+       let targetID= event.target.lastChild.previousSibling.id ? event.target.lastChild.previousSibling.id : null;
+      targetID? document.getElementById(targetID).classList.toggle("box-border-dark"): null;
     };
-    let darkenProductBorder= document.querySelector(".slick-current ");
-    darkenProductBorder.addEventListener('mouseenter', changeBorderColor);
-    let LightenProductBorder= document.querySelector(".slick-current ");
-    darkenProductBorder.addEventListener('mouseleave', changeBorderColor);
-});
+    let carousel_slides= document.querySelectorAll(".slick-slide");
+    carousel_slides.forEach((element)=>{
+        element.addEventListener('mouseenter', changeBorderColor);
+        element.addEventListener('mouseleave', changeBorderColor);
+    });
+    console.log("carousel slides are:" + carousel_slides);
+    // darkenProductBorder.addEventListener('mouseenter', changeBorderColor);
+    // let LightenProductBorder= document.querySelector(".slick-slide");
+    // darkenProductBorder.addEventListener('mouseleave', changeBorderColor);
 
+});
 
 $('.one-time').slick({
     centerMode:true,

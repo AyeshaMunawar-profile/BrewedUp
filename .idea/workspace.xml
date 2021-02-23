@@ -2,13 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf7430d6-b45c-4214-acd3-f30928eabe86" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/100% Arbica classic (medium Roast) 1000g.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/100% Arbica classic (medium Roast) 1000g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/100% Arbica classic (medium Roast) 250g.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/100% Arbica classic (medium Roast) 250g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/Delizioso Dolce ( Medium Roast) 1000g .png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/Delizioso Dolce ( Medium Roast) 1000g .png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/Delizioso Dolce ( Medium Roast) 250g .png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/Delizioso Dolce ( Medium Roast) 250g .png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/Delizioso Forte ( Mild Roast) 1000g.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/Delizioso Forte ( Mild Roast) 1000g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/Delizioso Forte ( Mild Roast) 250g.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/Delizioso Forte ( Mild Roast) 250g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/premium espresso.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/Images/Products/Our Coffee/Carousel/premium espresso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/BU-Black-circle - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/BU-Black-circle-Border-Icon-Transpaent-Beans - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/BU-Black-circle-Icon - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/BU-Transparent-circle-Border - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/BU-Transparent-circle-Border-Icon - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/BU-Transparent-circle-Border-Icon-White - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/BU-Transparent-circle-Border-White - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/BU-White-circle-Border - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/BU-White-circle-Border-Icon - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Beans Black - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Beans White - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Beans Yellow - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Brewed Up Logo Black Circle - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Brewed Up Logo Circle - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Brewed Up Logo Circle 3d - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Brewed Up Logo Horizontal Black - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Brewed Up Logo Horizontal White - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Brewed Up Logo Vertical Black - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Brewed Up Logo Vertical White - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Brewed Up logo Black - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Brewed Up logo Borwn - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Brewed Up logo Off White - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Brewed Up logo White - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Brewed Up logo White Small - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Brewed Up square logo - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Brewed Up square logo Black - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Brewed Up square logo Pink - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Brewed Up square logo Vector - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Stamp Black - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Stamp Brown - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Stamp Grey - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Stamp White - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Stamp Yellow - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Wave Black - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Wave Coffee - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Wave Grey - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Wave White - Copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Wave Yellow - Copy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +85,7 @@
       <workItem from="1613554185488" duration="760000" />
       <workItem from="1613731934962" duration="19428000" />
       <workItem from="1613980467964" duration="7000000" />
+      <workItem from="1614077759247" duration="722000" />
     </task>
     <servers />
   </component>
@@ -72,7 +106,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

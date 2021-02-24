@@ -20,6 +20,7 @@
     <!-- CSS Files -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/hover-min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="./assets/css/paper-kit.min.css" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
@@ -135,13 +136,14 @@
 </div>
 
 <!--Section 1 - Our coffee + carousel of all products -->
-<section class="section section-our-coffee">
+<section class="section section-our-coffee" >
     <div class="section-heading section-header mb-5">
-        <h1 class="heading-text text-dark text-center mt-5 mb-3 section-heading "> Our Coffee </h1>
-        <h5 class="text-color-grey text-center font-weight-normal ">We have carefully selected great tasting coffees from
+        <h1 class="heading-text text-dark text-center mt-5 mb-3 section-heading " data-aos="flip-up"> Our Coffee </h1>
+        <h5 class="text-color-grey text-center font-weight-normal " data-aos="flip-up">We have carefully selected great tasting coffees from
             around the world</h5>
     </div>
-    <div class="section-content animate__animated animate__fadeInUp">
+    <div class="section-content " data-aos="fade-up"
+         data-aos-anchor-placement="top-bottom">
         <section class="slick-center slider products-carousel">
             <div class="carousel-item item-no-1">
                     <img src="res/Logo/Wave%20Yellow.png" class="img-fluid carousel-item-wave hvr-float-shadow">
@@ -284,6 +286,7 @@
 <script src="assets/js/paper-kit.js"></script>
 <!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>-->
 <script type="text/javascript" src="assets/slick/slick.min.js" charset="utf-8"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script type="text/javascript" src="index.js"></script>
 
 </body>

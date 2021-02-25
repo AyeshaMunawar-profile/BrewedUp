@@ -17,6 +17,7 @@ mission: to make an office and on-the-go cup of coffee that we’d like to drink
 7) FONT AWESOME
 8) Slick Carousel 
 9) Hover.css
+10) AOS ( ANIMATE ON SCROLL) 
 
 **Features**
 1) The website provides a form for the user who want to subscribe to our companies updates and newsletter

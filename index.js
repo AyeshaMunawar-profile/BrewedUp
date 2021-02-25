@@ -1,6 +1,6 @@
 $(document).ready(function () {
+    AOS.init(); // initiate animate on scroll instance
     let changeBorderColor = function(event) {
-        console.log(event.target.lastChild.previousSibling);
        let targetID= event.target.lastChild.previousSibling.id ? event.target.lastChild.previousSibling.id : null;
       targetID? document.getElementById(targetID).classList.toggle("box-border-dark"): null;
     };
@@ -9,13 +9,8 @@ $(document).ready(function () {
         element.addEventListener('mouseenter', changeBorderColor);
         element.addEventListener('mouseleave', changeBorderColor);
     });
-    console.log("carousel slides are:" + carousel_slides);
-    // darkenProductBorder.addEventListener('mouseenter', changeBorderColor);
-    // let LightenProductBorder= document.querySelector(".slick-slide");
-    // darkenProductBorder.addEventListener('mouseleave', changeBorderColor);
 
 });
-
 $('.one-time').slick({
     centerMode:true,
     centerPadding: true,

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf7430d6-b45c-4214-acd3-f30928eabe86" name="Default Changelist" comment="" />
+    <list default="true" id="bf7430d6-b45c-4214-acd3-f30928eabe86" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +27,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="SvnConfiguration">
@@ -46,6 +49,8 @@
       <workItem from="1613980467964" duration="7000000" />
       <workItem from="1614164990843" duration="60000" />
       <workItem from="1614178275026" duration="1550000" />
+      <workItem from="1614250277044" duration="658000" />
+      <workItem from="1614253085506" duration="1829000" />
     </task>
     <servers />
   </component>
@@ -56,6 +61,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="268" y="278" key="FileChooserDialogImpl" timestamp="1614252486461">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="268" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614252486461" />
     <state x="262" y="353" width="586" height="488" key="find.popup" timestamp="1613294607354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

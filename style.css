@@ -37,6 +37,12 @@
     font-size: 4rem;
     font-family: 'Playfair Display', serif !important;
 }
+/*Heading Section*/
+hr{
+    width: 50px;
+    border-bottom: 2px solid var(--yellow);
+    text-align: center;
+}
 /*Navbar*/
 .nav-bar-container{
     min-width: 97vw ;

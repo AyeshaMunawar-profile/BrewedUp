@@ -102,7 +102,7 @@ hr{
     top: 20%;
 }
 .carousel-item-main-heading{
-
+margin-top: 10px;
 }
 .products-carousel .slick-slide img{
     width: 40%;
@@ -153,7 +153,7 @@ hr{
 .carousel-item-stamp{
     max-width: 100px;
     height: auto;
-    margin-left: 65%;
+    margin-left: 70%;
 }
 .carousel-item-wave{
    max-width: 50px;
@@ -193,7 +193,7 @@ hr{
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: flex-start;
     }
 }
@@ -216,7 +216,7 @@ hr{
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -253,15 +253,18 @@ hr{
         justify-content: space-evenly;
         align-items: center;
     }
-
+    .carousel-item-stamp{
+        width: 80px !important;
+        height: auto !important;
+    }
 }
 /*Extra Extra Large Screen*/
 @media screen and (min-width: 1400px) {
     .large-text{
-        font-size: 65px;
+        font-size: 55px;
     }
     .normal-text{
-        font-size: 26px;
+        font-size: 23px;
     }
     .carousel-item-content{
         display: flex;
@@ -270,5 +273,27 @@ hr{
         justify-content: space-around;
         align-items: center;
     }
-
+    .carousel-item-stamp{
+        width: 80px !important;
+        height: auto !important;
+    }
+}
+@media screen and (min-width: 1600px) {
+    .large-text{
+        font-size: 60px;
+    }
+    .normal-text{
+        font-size: 25px;
+    }
+    .carousel-item-content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .carousel-item-stamp{
+        width: 130px !important;
+        height: auto !important;
+    }
 }

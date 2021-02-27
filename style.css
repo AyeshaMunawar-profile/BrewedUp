@@ -38,35 +38,50 @@
     font-size: 4rem;
     font-family: 'Playfair Display', serif !important;
 }
+/*Hover.css */
+.hvr-sweep-to-top:before,
+.hvr-sweep-to-bottom:before,
+.hvr-sweep-to-right:before,
+.hvr-sweep-to-left:before{
+    background-color: var(--white);
+    color: black;
+    transition: all .3s ease-in-out;
+}
 /*Buttons */
 .brewed-up-btn-dark{
     font-weight: bold;
+    letter-spacing: 4px;
+    word-spacing: 3px;
     background-color: var(--black);
     color: var(--white);
     text-transform: uppercase;
-    padding: 20px 30px;
+    padding: 20px 35px;
     border: 2px solid transparent;
     min-width: 250px;
     transition: all .3s ease-in-out;
 }
 .brewed-up-btn-dark:hover,
-.brewed-up-btn-dark:active{
+.brewed-up-btn-dark:active,
+.brewed-up-btn-dark:focus{
     background-color: transparent;
     color: var(--black);
     border: 2px solid var(--black);
 }
 .brewed-up-btn-light{
     font-weight: bold;
+    letter-spacing: 4px;
+    word-spacing: 3px;
     background-color: transparent;
     color: var(--black);
     text-transform: uppercase;
-    padding: 20px 30px;
+    padding: 20px 35px;
     border: 2px solid var(--coffee);
     min-width: 250px;
     transition: all .3s ease-in-out;
 }
 .brewed-up-btn-light:hover,
-.brewed-up-btn-light:active{
+.brewed-up-btn-light:active,
+.brewed-up-btn-light:focus{
     background-color: var(--coffee);
     color: var(--white);
     border:2px solid transparent;

@@ -7,11 +7,12 @@
     --light-coffee: #eaddcf;
     --coffee: #b9a787;
     --coffee-opacity-4: rgba(185, 167, 135, 0.3);
-    --coffee-opacity-8: rgba(185, 167, 135, 0.7);
+    --coffee-opacity-8: rgba(185, 167, 135, 0.6);
     --grey: #787878;
     --yellow: #fbc658;
     font-size: 1rem !important;
     }
+/*Text + Fonts */
 .text-color-lightest-coffee{
     color: var(--lightest-coffee) !important;
 }
@@ -37,11 +38,61 @@
     font-size: 4rem;
     font-family: 'Playfair Display', serif !important;
 }
+/*Buttons */
+.brewed-up-btn-dark{
+    font-weight: bold;
+    background-color: var(--black);
+    color: var(--white);
+    text-transform: uppercase;
+    padding: 20px 30px;
+    border: 2px solid transparent;
+    min-width: 250px;
+    transition: all .3s ease-in-out;
+}
+.brewed-up-btn-dark:hover,
+.brewed-up-btn-dark:active{
+    background-color: transparent;
+    color: var(--black);
+    border: 2px solid var(--black);
+}
+.brewed-up-btn-light{
+    font-weight: bold;
+    background-color: transparent;
+    color: var(--black);
+    text-transform: uppercase;
+    padding: 20px 30px;
+    border: 2px solid var(--coffee);
+    min-width: 250px;
+    transition: all .3s ease-in-out;
+}
+.brewed-up-btn-light:hover,
+.brewed-up-btn-light:active{
+    background-color: var(--coffee);
+    color: var(--white);
+    border:2px solid transparent;
+}
+.view-our-coffee-button{
+    top: 49%;
+}
 /*Heading Section*/
 hr{
     width: 50px;
-    border-bottom: 2px solid var(--yellow);
+    border: none;
+    border-bottom: 3px solid var(--yellow);
     text-align: center;
+}
+.section-our-coffee{
+    margin-bottom: 70px ;
+    background-color: transparent;
+}
+.view-our-coffee-section{
+    position: relative;
+    top: -20px;
+    text-align: center;
+}
+.coffee-text-image{
+    z-index: -10;
+    position: relative;
 }
 /*Navbar*/
 .nav-bar-container{
@@ -179,7 +230,12 @@ margin-top: 10px;
         justify-content: space-evenly;
         align-items: center;
     }
-
+.slick-list{
+    height: auto;
+}
+.a.slick-dots{
+    display: none;
+}
 }
 /*Small Screen*/
 @media screen and (min-width: 576px) {
@@ -195,6 +251,9 @@ margin-top: 10px;
         flex-wrap: nowrap;
         justify-content: space-around;
         align-items: center;
+    }
+    .a.slick-dots{
+        display: none;
     }
 }
 /*Medium Screen*/

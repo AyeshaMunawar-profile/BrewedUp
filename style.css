@@ -233,6 +233,9 @@ margin-top: 10px;
 .slick-list{
     height: auto;
 }
+.a.slick-dots{
+    display: none;
+}
 }
 /*Small Screen*/
 @media screen and (min-width: 576px) {
@@ -248,6 +251,9 @@ margin-top: 10px;
         flex-wrap: nowrap;
         justify-content: space-around;
         align-items: center;
+    }
+    .a.slick-dots{
+        display: none;
     }
 }
 /*Medium Screen*/

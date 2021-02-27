@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf7430d6-b45c-4214-acd3-f30928eabe86" name="Default Changelist" comment="" />
+    <list default="true" id="bf7430d6-b45c-4214-acd3-f30928eabe86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/res/Logo/Bean Shape Black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Bean Shape Coffee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Bean Shape Grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Bean Shape White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Bean Shape Yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Coffee Text Black Color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Coffee Text Coffee Color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Coffee Text Grey Color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Coffee Text Light Coffee Color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Coffee Text White Color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Coffee Text Yellow Color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/Logo/Decoration Items .ai" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +65,7 @@
       <workItem from="1614261957425" duration="4545000" />
       <workItem from="1614339516260" duration="5054000" />
       <workItem from="1614344583454" duration="1033000" />
+      <workItem from="1614434500635" duration="3538000" />
     </task>
     <servers />
   </component>

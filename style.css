@@ -89,6 +89,15 @@
 .view-our-coffee-button{
     top: 49%;
 }
+/*Sections*/
+.section-our-coffee{
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+.section-we-serve{
+    top: -30px;
+    background-color: var(--lightest-coffee);
+}
 /*Heading Section*/
 hr{
     width: 50px;
@@ -110,6 +119,11 @@ hr{
     position: relative;
 }
 /*Navbar*/
+.nav-link{
+    padding: 10px 10px !important;
+    text-align: center;
+    font-size: 2vw;
+}
 .nav-bar-container{
     min-width: 97vw ;
     margin-left: 1.5vw ;

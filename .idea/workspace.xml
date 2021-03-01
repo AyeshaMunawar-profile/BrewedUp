@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bf7430d6-b45c-4214-acd3-f30928eabe86" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +56,7 @@
       <workItem from="1614339516260" duration="5054000" />
       <workItem from="1614344583454" duration="1033000" />
       <workItem from="1614434500635" duration="4673000" />
+      <workItem from="1614617872346" duration="1758000" />
     </task>
     <servers />
   </component>
@@ -68,6 +67,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="108" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1614617959523">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="108" y="259" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614617959523" />
     <state x="268" y="278" key="FileChooserDialogImpl" timestamp="1614252486461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

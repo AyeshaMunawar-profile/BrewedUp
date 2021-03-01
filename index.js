@@ -1,18 +1,18 @@
 $(document).ready(function () {
     AOS.init(); // initiate animate on scroll instance
-    let changeBorderColor = function(event) {
-       let targetID= event.target.lastChild.previousSibling.id ? event.target.lastChild.previousSibling.id : null;
-      targetID? document.getElementById(targetID).classList.toggle("box-border-dark"): null;
+    let changeBorderColor = function (event) {
+        let targetID = event.target.lastChild.previousSibling.id ? event.target.lastChild.previousSibling.id : null;
+        targetID ? document.getElementById(targetID).classList.toggle("box-border-dark") : null;
     };
-    let carousel_slides= document.querySelectorAll(".slick-slide");
-    carousel_slides.forEach((element)=>{
+    let carousel_slides = document.querySelectorAll(".slick-slide");
+    carousel_slides.forEach((element) => {
         element.addEventListener('mouseenter', changeBorderColor);
         element.addEventListener('mouseleave', changeBorderColor);
     });
 
 });
 $('.one-time').slick({
-    centerMode:true,
+    centerMode: true,
     centerPadding: true,
     dots: true,
     infinite: true,
@@ -71,7 +71,7 @@ $('.slick-center').slick({
                 centerPadding: '40px',
                 slidesToScroll: 2,
                 slidesToShow: 2,
-                dots:false
+                dots: false
             }
         },
         {
@@ -82,7 +82,7 @@ $('.slick-center').slick({
                 centerPadding: '40px',
                 slidesToScroll: 1,
                 slidesToShow: 1,
-                dots:false
+                dots: false
             }
         }
     ]

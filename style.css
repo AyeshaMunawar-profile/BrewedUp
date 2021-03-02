@@ -287,7 +287,11 @@ hr {
     color: var(--yellow);
     font-size: 30px;
 }
+/*We Serve Section*/
+.we-serve-image-left:before{
+    content: '';
 
+}
 /*Media Queries*/
 /*X-Small Screen*/
 @media screen and (max-width: 576px) {
@@ -319,9 +323,6 @@ hr {
         text-align: center;
     }
 
-    .we-serve-item-caption {
-
-    }
 }
 
 /*Small Screen*/
@@ -392,7 +393,12 @@ hr {
         justify-content: space-evenly;
         align-items: center;
     }
-
+    .we-serve-image-left{
+        padding-right: 30px;
+    }
+    .we-serve-image-caption-left {
+        width: 50%;
+    }
 }
 @media screen and (max-width: 992px){
 

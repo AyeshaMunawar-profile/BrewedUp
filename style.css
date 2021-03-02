@@ -296,18 +296,6 @@ hr {
     font-size: 30px;
 }
 /*We Serve Section*/
-.we-serve-image-caption-right{
-    transform: rotate(
-            -90deg
-    );
-    transform-origin: left top 0;
-    float: left;
-    min-width: 20px;
-    top: 30px;
-    right: -5px;
-    font-weight: 500;
-    position: relative;
-}
 .we-serve-image-caption-left p{
     transform: rotate(
             90deg
@@ -330,14 +318,36 @@ hr {
     height: 2px;
     background: #0f0f0f;
 }
+.we-serve-image-caption-right p{
+    transform: rotate(
+            90deg
+    );
+    transform-origin: right top 0;
+    float: right;
+    min-width: 20px;
+    top: -64px;
+    right: -28px;
+    font-weight: 500;
+    position: relative;
+}
+.we-serve-image-caption-right p:after{
+    position: absolute;
+    top: 12px;
+    right: -62px;
+    content: ' ';
+    display: inline-block;
+    width: 52px;
+    height: 2px;
+    background: #0f0f0f;
+}
 .we-serve-section-item{
     z-index: 2;
     margin-bottom: 100px;
 }
-.we-serve-image-left{
+.we-serve-image-left,.we-serve-image-right{
     z-index: 2;
 }
-.we-serve-image-caption-left .we-serve-image-caption-right{
+.we-serve-image-caption-left,.we-serve-image-caption-right{
     z-index: 2;
 }
 .we-serve-bean-row{
@@ -378,7 +388,7 @@ hr {
         display: none;
     }
 
-    .we-serve-item-left-aligned {
+    .we-serve-item-left-aligned,.we-serve-item-right-aligned {
         text-align: center;
     }
 
@@ -425,7 +435,7 @@ hr {
     }
 }
 @media screen and (max-width: 768px){
-    .we-serve-image-left {
+    .we-serve-image-left,.we-serve-image-right{
         width: 80%;
     }
     .we-serve-section-item{
@@ -452,14 +462,17 @@ hr {
         justify-content: space-evenly;
         align-items: center;
     }
-    .we-serve-image-left{
+    .we-serve-image-caption-left{
         padding-right: 30px;
     }
-    .we-serve-image-caption-left .we-serve-image-caption-right{
+    .we-serve-image-caption-right{
+        padding-left: 30px;
+    }
+    .we-serve-image-caption-left,.we-serve-image-caption-right{
         width: 50%;
         height: auto;
     }
-    .we-serve-image-left{
+    .we-serve-image-left,.we-serve-image-right{
         width: 100%;
         height: auto;
     }
@@ -476,6 +489,14 @@ hr {
     }
     .we-serve-bean{
         opacity: 0.3;
+    }
+    .we-serve-section-item{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    .we-serve-item-caption{
+        order: 2;
     }
 }
 /*Extra Large Screen */

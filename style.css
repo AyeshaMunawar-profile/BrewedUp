@@ -306,10 +306,10 @@ hr {
     transform-origin: left top 0;
     float: left;
     min-width: 20px;
-    top: 30px;
+    top: 0px;
     left: -5px;
     font-weight: 500;
-    position: relative;
+    position: absolute;
 }
 .we-serve-image-caption-left p:after{
     position: absolute;
@@ -328,10 +328,10 @@ hr {
     transform-origin: right top 0;
     float: right;
     min-width: 20px;
-    top: -64px;
+    top: 127px;
     right: -28px;
     font-weight: 500;
-    position: relative;
+    position: absolute;
 }
 .we-serve-image-caption-right p:after{
     position: absolute;
@@ -351,6 +351,7 @@ hr {
     z-index: 2;
 }
 .we-serve-image-caption-left,.we-serve-image-caption-right{
+    position: relative;
     z-index: 2;
 }
 .we-serve-bean-row{

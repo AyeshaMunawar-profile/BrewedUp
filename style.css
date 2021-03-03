@@ -56,6 +56,7 @@
     color: black;
     transition: all .3s ease-in-out;
 }
+
 .brewed-up-btn-light.hvr-sweep-to-top:before,
 .brewed-up-btn-light.hvr-sweep-to-bottom:before,
 .brewed-up-btn-light.hvr-sweep-to-right:before,
@@ -298,8 +299,9 @@ hr {
     color: var(--yellow);
     font-size: 30px;
 }
+
 /*We Serve Section*/
-.we-serve-image-caption-left p{
+.we-serve-image-caption-left p {
     transform: rotate(
             90deg
     );
@@ -311,7 +313,8 @@ hr {
     font-weight: 500;
     position: absolute;
 }
-.we-serve-image-caption-left p:after{
+
+.we-serve-image-caption-left p:after {
     position: absolute;
     top: 12px;
     right: -62px;
@@ -321,7 +324,8 @@ hr {
     height: 2px;
     background: #0f0f0f;
 }
-.we-serve-image-caption-right p{
+
+.we-serve-image-caption-right p {
     transform: rotate(
             90deg
     );
@@ -333,7 +337,8 @@ hr {
     font-weight: 500;
     position: absolute;
 }
-.we-serve-image-caption-right p:after{
+
+.we-serve-image-caption-right p:after {
     position: absolute;
     top: 12px;
     right: -62px;
@@ -343,31 +348,37 @@ hr {
     height: 2px;
     background: #0f0f0f;
 }
-.we-serve-section-item{
+
+.we-serve-section-item {
     z-index: 2;
     margin-bottom: 100px;
 }
-.we-serve-image-left,.we-serve-image-right{
+
+.we-serve-image-left, .we-serve-image-right {
     z-index: 2;
 }
-.we-serve-image-caption-left,.we-serve-image-caption-right{
+
+.we-serve-image-caption-left, .we-serve-image-caption-right {
     position: relative;
     z-index: 2;
 }
-.we-serve-bean-row{
-    width: 100%;
+
+.we-serve-bean {
     position: absolute;
-    top:30%;
+    top: 30%;
     z-index: 0;
 }
-.we-serve-bean{
-    opacity: 0.5;
+
+.we-serve-bean-image {
+    opacity: 0.2;
     width: 25%;
     margin-left: 1%;
 }
-.we-serve-item-caption{
+
+.we-serve-item-caption {
     z-index: 3;
 }
+
 /*Media Queries*/
 /*X-Small Screen*/
 @media screen and (max-width: 576px) {
@@ -395,7 +406,7 @@ hr {
         display: none;
     }
 
-    .we-serve-item-left-aligned,.we-serve-item-right-aligned {
+    .we-serve-item-left-aligned, .we-serve-item-right-aligned {
         text-align: center;
     }
 
@@ -423,6 +434,7 @@ hr {
         display: none;
     }
 }
+
 /*Medium Screen*/
 @media screen and (min-width: 768px) {
     .large-text {
@@ -441,17 +453,21 @@ hr {
         align-items: flex-start;
     }
 }
-@media screen and (max-width: 768px){
-    .we-serve-image-left,.we-serve-image-right{
+
+@media screen and (max-width: 768px) {
+    .we-serve-image-left, .we-serve-image-right {
         width: 80%;
     }
-    .we-serve-section-item{
+
+    .we-serve-section-item {
         text-align: center;
     }
-    .we-serve-item-caption{
+
+    .we-serve-item-caption {
         text-align: center;
     }
 }
+
 /*Large Screen */
 @media screen and (min-width: 992px) {
     .large-text {
@@ -469,43 +485,54 @@ hr {
         justify-content: space-evenly;
         align-items: center;
     }
-    .we-serve-image-caption-left{
+
+    .we-serve-image-caption-left {
         padding-right: 30px;
     }
-    .we-serve-image-caption-right{
+
+    .we-serve-image-caption-right {
         padding-left: 30px;
     }
-    .we-serve-image-caption-left,.we-serve-image-caption-right{
+
+    .we-serve-image-caption-left, .we-serve-image-caption-right {
         width: 50%;
         height: auto;
     }
-    .we-serve-image-left,.we-serve-image-right{
+
+    .we-serve-image-left, .we-serve-image-right {
         width: 100%;
         height: auto;
     }
 }
-@media screen and (max-width: 992px){
-    .we-serve-image-caption-left p{
+
+@media screen and (max-width: 992px) {
+    .we-serve-image-caption-left p {
         display: none;
     }
-    .we-serve-image-caption-right p{
+
+    .we-serve-image-caption-right p {
         display: none;
     }
-    .we-serve-bean-row{
+
+    .we-serve-bean-row {
         z-index: 0;
     }
-    .we-serve-bean{
+
+    .we-serve-bean {
         opacity: 0.3;
     }
-    .we-serve-section-item{
+
+    .we-serve-section-item {
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
     }
-    .we-serve-item-caption{
+
+    .we-serve-item-caption {
         order: 2;
     }
 }
+
 /*Extra Large Screen */
 @media screen and (min-width: 1200px) {
     .large-text {
@@ -530,7 +557,8 @@ hr {
     }
 
 }
-@media screen and (max-width: 1200px){
+
+@media screen and (max-width: 1200px) {
 
 }
 

@@ -142,12 +142,15 @@
 
 /*Heading Section*/
 hr {
-    width: 50px;
+    width: 100%;
+    max-width: 50px;
     border: none;
-    border-bottom: 3px solid var(--yellow);
+    border-bottom: 3px solid var(--coffee);
     text-align: center;
 }
-
+hr.orange-line{
+    border-bottom: 3px solid var(--yellow);
+}
 .section-our-coffee {
     margin-bottom: 70px;
     background-color: transparent;

@@ -1,5 +1,6 @@
 $(document).ready(function () {
     AOS.init(); // initiate animate on scroll instance
+    gsap.registerPlugin(ScrollTrigger);
     let changeBorderColor = function (event) {
         let targetID = event.target.lastChild.previousSibling.id ? event.target.lastChild.previousSibling.id : null;
         targetID ? document.getElementById(targetID).classList.toggle("box-border-dark") : null;
@@ -9,7 +10,33 @@ $(document).ready(function () {
         element.addEventListener('mouseenter', changeBorderColor);
         element.addEventListener('mouseleave', changeBorderColor);
     });
+    ScrollTrigger.defaults({ toggleActions: "restart pause resume pause" });
 
+    // animate the orage lines bellow heading
+    gsap.utils.toArray(".orange-line").forEach((line) => {
+        var tl = gsap.timeline({
+            scrollTrigger: {
+                trigger: line,
+                toggeAction: "restart none restart none",
+                start: "top 90%",
+                end: "top 20%",
+                markers: false,
+                scrub: 1,
+                // Console.log the event called for the enter leaving , reentering or releaving the scroll trigger
+                // area i.e distance between scroll start and scroll enter
+                // onEnter: () => console.log("on Enter called"),
+                // onLeave: () => console.log("on leave called"),
+                // onEnterBack: () => console.log("on Enter back called"),
+                // onLeaveBack: () => console.log("On leave back called")
+            }
+        });
+        tl.from(line, {
+            scaleX: 0,
+            transformOrigin: "left center",
+            ease: "none",
+            duration: 1
+        });
+    });
 });
 $('.one-time').slick({
     centerMode: true,

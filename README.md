@@ -19,6 +19,7 @@ mission: to make an office and on-the-go cup of coffee that we’d like to drink
 9) Hover.css
 10) GSAP ( for animations)
 11) Scroll Trigger ( for triggering animations and other behaviour on scrolling)
+12) AOS ( Animations on scroll )
 
 **Features**
 1) The website provides a form for the user who want to subscribe to our companies updates and newsletter

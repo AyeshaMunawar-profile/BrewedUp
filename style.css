@@ -318,35 +318,35 @@ hr.orange-line{
 }
 
 /*custom animations*/
-.bean-rotate-down {
-    animation: 5s ease-in-out bean-rotate-down;
-    animation-fill-mode: forwards;
-}
+/*.bean-rotate-down {*/
+/*    animation: 5s ease-in-out bean-rotate-down;*/
+/*    animation-fill-mode: forwards;*/
+/*}*/
 
-@keyframes bean-rotate-down {
-    0% {
+/*@keyframes bean-rotate-down {*/
+/*    0% {*/
 
-    }
-    50% {
-        transform: translate(-149%, 164%) rotate(196deg) scale(2);
-    }
-    100% {
-        transform: translate(-6%, 349%) rotate(121deg) scale(1);
-    }
+/*    }*/
+/*    50% {*/
+/*        transform: translate(-149%, 164%) rotate(196deg) scale(2);*/
+/*    }*/
+/*    100% {*/
+/*        transform: translate(-6%, 349%) rotate(121deg) scale(1);*/
+/*    }*/
 
-}
+/*}*/
 
-@keyframes bean-rotate-up {
-    0% {
+/*@keyframes bean-rotate-up {*/
+/*    0% {*/
 
-    }
-    50% {
-        transform: translate(-149%, -24%) rotate(196deg) scale(2);
-    }
-    100% {
-        transform: translate(-6%, -29%) rotate(121deg) scale(1);
-    }
-}
+/*    }*/
+/*    50% {*/
+/*        transform: translate(-149%, -24%) rotate(196deg) scale(2);*/
+/*    }*/
+/*    100% {*/
+/*        transform: translate(-6%, -29%) rotate(121deg) scale(1);*/
+/*    }*/
+/*}*/
 
 /*We Serve Section*/
 .we-serve-image-caption-left p {

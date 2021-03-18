@@ -77,7 +77,6 @@ $('.slick-center').slick({
     adaptiveHeight: true,
     lazyLoad: 'ondemand',
     mobileFirst: true,
-    autoplay: true,
     responsive: [
         {
             breakpoint: 1200,

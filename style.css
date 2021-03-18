@@ -395,14 +395,18 @@ hr.orange-line {
 }
 
 /*Media Queries*/
-/*X-Small Screen*/
+/*X-Small Screen and screen sizes bellow it */
 @media screen and (max-width: 57.6rem) {
     .large-text {
         font-size: 4.8rem;
     }
 
     .normal-text {
-        font-size: 2rem;
+        font-size: 2.3rem;
+    }
+
+    .small-text{
+        font-size: 1.5rem;
     }
 
     .carousel-item-content {
@@ -420,15 +424,17 @@ hr.orange-line {
     .a.slick-dots {
         display: none;
     }
-
-    .we-serve-item-left-aligned, .we-serve-item-right-aligned {
-        text-align: center;
+    .we-serve-image{
+        width: 80%;
+    }
+    .we-serve-image p{
+        display: none;
     }
 
 }
 
 /*Small Screen*/
-@media screen and (min-width: 57.6rem) {
+@media screen and (min-width: 57.6rem) and (max-width: 69rem) {
     .large-text {
         font-size: 5.6rem;
     }
@@ -436,7 +442,9 @@ hr.orange-line {
     .normal-text {
         font-size: 2.4rem;
     }
-
+    .small-text{
+        font-size: 1rem;
+    }
     .carousel-item-content {
         display: flex;
         flex-direction: row;
@@ -450,47 +458,8 @@ hr.orange-line {
     }
 }
 
-/*Medium Screen*/
-@media screen and (min-width: 76.8rem) {
-    .heading-text{
-        font-size: 7rem;
-    }
-    .large-text {
-        font-size: 7.8rem;
-    }
-
-    .normal-text {
-        font-size: 3.3rem;
-    }
-
-    .carousel-item-content {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        align-items: flex-start;
-    }
-}
-
-@media screen and (max-width: 76.8rem) {
-    .we-serve-image-left, .we-serve-image-right {
-        width: 80%;
-    }
-
-    .we-serve-section-item {
-        text-align: center;
-    }
-
-    .we-serve-item-caption {
-        text-align: center;
-    }
-    .heading-text{
-        font-size: 7rem;
-    }
-}
-
 /*Large Screen */
-@media screen and (min-width: 99.2rem) {
+@media screen and (min-width: 69rem) and (max-width: 89rem){
     .large-text {
         font-size: 4.8rem;
     }
@@ -528,7 +497,7 @@ hr.orange-line {
     }
 }
 
-@media screen and (max-width: 99.2rem) {
+@media screen and (min-width: 89rem) and (max-width: 108.5rem ) {
     .we-serve-image-caption-left p {
         display: none;
     }
@@ -559,7 +528,7 @@ hr.orange-line {
 }
 
 /*Extra Large Screen */
-@media screen and (min-width: 120rem) {
+@media screen and (min-width: 108.5rem) and (max-width: 140rem){
     .large-text {
         font-size: 3.9rem;
     }
@@ -584,7 +553,7 @@ hr.orange-line {
 }
 
 /*Extra Extra Large Screen*/
-@media screen and (min-width: 140rem ) {
+@media screen and (min-width: 140rem ) and (max-width: 160rem) {
     .large-text {
         font-size: 5.5rem;
     }
@@ -606,7 +575,7 @@ hr.orange-line {
         height: auto !important;
     }
 }
-
+/*All the remaining larger screen sizes*/
 @media screen and (min-width: 160rem) {
     .large-text {
         font-size: 7rem;

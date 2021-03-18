@@ -10,7 +10,7 @@ $(document).ready(function () {
         element.addEventListener('mouseenter', changeBorderColor);
         element.addEventListener('mouseleave', changeBorderColor);
     });
-    ScrollTrigger.defaults({ toggleActions: "restart pause resume pause" });
+    ScrollTrigger.defaults({toggleActions: "restart pause resume pause"});
 
     // animate the orage lines bellow heading
     gsap.utils.toArray(".orange-line").forEach((line) => {

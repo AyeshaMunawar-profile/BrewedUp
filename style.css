@@ -277,7 +277,9 @@ hr.orange-line {
     font-size: 2rem;
     color: var(--yellow);
 }
-
+.carousel-item-content{
+    display: flex;
+}
 /*Hover Library Customization*/
 .hvr-underline-from-center:before {
     background-color: var(--light-coffee) !important;
@@ -396,7 +398,7 @@ hr.orange-line {
 
 /*Media Queries*/
 /*X-Small Screen and screen sizes bellow it */
-@media screen and (max-width: 57.6rem) {
+@media screen and (max-width: 576px) {
     .large-text {
         font-size: 4.8rem;
     }
@@ -427,7 +429,7 @@ hr.orange-line {
     .we-serve-image{
         width: 80%;
     }
-    .we-serve-image+p{
+    .we-serve-image-and-caption p{
         display: none;
     }
     .we-serve-section-item{
@@ -445,7 +447,7 @@ hr.orange-line {
 }
 
 /*Small Screen*/
-@media screen and (min-width: 57.6rem) and (max-width: 69rem) {
+@media screen and (min-width: 576px) and (max-width: 690px) {
     .large-text {
         font-size: 5.6rem;
     }
@@ -467,10 +469,27 @@ hr.orange-line {
     .a.slick-dots {
         display: none;
     }
+    .we-serve-image{
+        width: 80%;
+    }
+    .we-serve-image-and-caption p{
+        display: none;
+    }
+    .we-serve-section-item{
+        flex-flow:  column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .we-serve-item-caption{
+        order: 2;
+    }
+    .we-serve-image-and-caption{
+        order: 1;
+    }
 }
 
 /*Large Screen */
-@media screen and (min-width: 69rem) and (max-width: 89rem){
+@media screen and (min-width: 691px) and (max-width: 889px){
     .large-text {
         font-size: 4.8rem;
     }
@@ -496,7 +515,14 @@ hr.orange-line {
     .we-serve-image-caption-right {
         padding-left: 3rem;
     }
-
+    .we-serve-image-and-caption p{
+        display: none;
+    }
+    .we-serve-section-item{
+        flex-flow:  row nowrap;
+        justify-content: center;
+        align-items: center;
+    }
     .we-serve-image-caption-left, .we-serve-image-caption-right {
         width: 50%;
         height: auto;
@@ -508,12 +534,19 @@ hr.orange-line {
     }
 }
 
-@media screen and (min-width: 89rem) and (max-width: 108.5rem ) {
+@media screen and (min-width: 890px) and (max-width: 1085px ) {
     .we-serve-image-caption-left p {
         display: none;
     }
     .heading-text{
         font-size: 7rem;
+    }
+    .carousel-item-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
     }
     .we-serve-image-caption-right p {
         display: none;
@@ -539,7 +572,7 @@ hr.orange-line {
 }
 
 /*Extra Large Screen */
-@media screen and (min-width: 108.5rem) and (max-width: 140rem){
+@media screen and (min-width: 1086px) and (max-width: 1400px){
     .large-text {
         font-size: 3.9rem;
     }
@@ -564,7 +597,7 @@ hr.orange-line {
 }
 
 /*Extra Extra Large Screen*/
-@media screen and (min-width: 140rem ) and (max-width: 160rem) {
+@media screen and (min-width: 1401px ) and (max-width: 1600px) {
     .large-text {
         font-size: 5.5rem;
     }
@@ -587,7 +620,7 @@ hr.orange-line {
     }
 }
 /*All the remaining larger screen sizes*/
-@media screen and (min-width: 160rem) {
+@media screen and (min-width: 1600px) {
     .large-text {
         font-size: 7rem;
     }

@@ -427,8 +427,19 @@ hr.orange-line {
     .we-serve-image{
         width: 80%;
     }
-    .we-serve-image p{
+    .we-serve-image+p{
         display: none;
+    }
+    .we-serve-section-item{
+        flex-flow:  column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .we-serve-item-caption{
+        order: 2;
+    }
+    .we-serve-image-and-caption{
+        order: 1;
     }
 
 }

@@ -640,11 +640,11 @@ hr.orange-line {
     .we-serve-image-and-caption p {
         display: block;
     }
-    /*.nav-link{*/
-    /*    padding-left:0.5rem !important;*/
-    /*    padding-right:0.5rem !important;*/
-    /*    text-align: center !important;*/
-    /*}*/
+    .nav-link{
+        padding-left:0.5rem !important;
+        padding-right:0.5rem !important;
+        text-align: center !important;
+    }
 }
 
 /*Extra Extra Large Screen*/

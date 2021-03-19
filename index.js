@@ -79,12 +79,23 @@ $('.slick-center').slick({
     mobileFirst: true,
     responsive: [
         {
-            breakpoint: 1200,
+            breakpoint: 1600,
             settings: {
                 arrows: true,
                 centerMode: true,
                 slidesToShow: 3,
                 slidesToScroll: 3,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 1200,
+            settings: {
+                arrows: true,
+                centerMode: true,
+                slidesToShow: 2,
+                slidesToScroll: 2,
                 infinite: true,
                 dots: true
             }

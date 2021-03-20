@@ -37,7 +37,13 @@ $(document).ready(function () {
             duration: 1
         });
     });
-
+    gsap.to(".we-serve__background__bean",{
+        scrollTrigger: ".we-serve__background__bean",
+        x: 40,
+        y: 500,
+        rotation: 480,
+        duration: 10
+    });
 });
 $('.one-time').slick({
     centerMode: true,

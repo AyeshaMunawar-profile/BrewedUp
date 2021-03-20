@@ -532,7 +532,7 @@ hr.orange-line {
     }
 }
 
-@media screen and (min-width: 890px) and (max-width: 1080px ) {
+@media screen and (min-width: 890px) and (max-width: 1078px ) {
     .we-serve-image-caption-left p {
         display: none;
     }
@@ -597,10 +597,16 @@ hr.orange-line {
     .we-serve-image-and-caption p {
         display: block;
     }
+    .navbar-translate{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row nowrap;
+    }
 }
 
 /*Extra Large Screen */
-@media screen and (min-width: 1081px) and (max-width: 1400px){
+@media screen and (min-width: 1079px) and (max-width: 1400px){
     .large-text {
         font-size: 3.9rem;
     }
@@ -645,6 +651,7 @@ hr.orange-line {
         padding-right:0.5rem !important;
         text-align: center !important;
     }
+
 }
 
 /*Extra Extra Large Screen*/

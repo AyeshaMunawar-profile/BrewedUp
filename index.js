@@ -12,8 +12,8 @@ $(document).ready(function () {
     });
     ScrollTrigger.defaults({toggleActions: "restart pause resume pause"});
 
-    // animate the orage lines bellow heading
-    gsap.utils.toArray(".orange-line").forEach((line) => {
+    // animate the orange lines bellow heading
+    gsap.utils.toArray(".section-heading__orange-line").forEach((line) => {
         var tl = gsap.timeline({
             scrollTrigger: {
                 trigger: line,
@@ -37,6 +37,7 @@ $(document).ready(function () {
             duration: 1
         });
     });
+
 });
 $('.one-time').slick({
     centerMode: true,

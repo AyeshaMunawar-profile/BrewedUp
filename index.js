@@ -17,7 +17,7 @@ $(document).ready(function () {
         var tl = gsap.timeline({
             scrollTrigger: {
                 trigger: line,
-                toggeAction: "restart none restart none",
+                toggleAction: "restart none restart none",
                 start: "top 90%",
                 end: "top 20%",
                 markers: false,

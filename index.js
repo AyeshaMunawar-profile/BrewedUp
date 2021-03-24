@@ -37,9 +37,9 @@ $(document).ready(function () {
             duration: 1
         });
     });
-    gsap.to(".we-serve__background__bean",{
+    let beanAnimationTimeline = gsap.timeline({
         scrollTrigger: {
-            toggleActions: "restart none none none",
+            toggleActions: "restart complete reverse complete",
             trigger: ".we-serve__content",
             markers: {
                 // customize the markers
@@ -47,15 +47,25 @@ $(document).ready(function () {
                 endColor: "red",
                 fontSize: "1rem"
             },
-            scrub: 2,
+            scrub: 5,
             start: "top center",
             end: () => "+=" + document.querySelector(".we-serve__content").offsetHeight
-        },
-        x: 40,
-        y: 500,
-        rotation: 480,
-        duration: 10
+        }
     });
+    beanAnimationTimeline.to(".we-serve__background__bean", {
+        x: "-=" + (document.querySelector(".we-serve__content").offsetWidth)* 0.7,
+        y: "+=" + (document.querySelector(".we-serve__content").offsetHeight)/2,
+        rotation: 180,
+        duration: 2,
+        scale: 1.5
+    })
+        .to(".we-serve__background__bean", {
+            x: "+=" + (document.querySelector(".we-serve__content").offsetWidth) * 0.6,
+            y: "+=" + ((document.querySelector(".we-serve__content").offsetHeight)/2),
+            rotation: -180,
+            duration: 2,
+            scale: 1
+        });
 });
 $('.one-time').slick({
     centerMode: true,

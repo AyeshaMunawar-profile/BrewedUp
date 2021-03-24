@@ -13,7 +13,7 @@
     /*making all the units in px converted to rem i.e 10px = 1 rem */
     /*Explanation : */
     /*according to the default font size of the browser i.e 16 px 1rem = 16px */
-    /*change it ot 10 px i.e 1rem = 10px */
+    /*change it ot 10 px i.e 1rem = 10px we-serve__background__bean*/
     /*change 10px to percentage unit so that if the default font siz eof the browser is changed */
     /*from 16px to something else by the user the units adjust according to it */
     font-size: 62.5% !important;
@@ -380,8 +380,8 @@ hr.section-heading__orange-line {
 
 .we-serve__background__bean {
     position: absolute;
-    top: 20%;
-    left: 60%;
+    /*top: 5%;*/
+    left: 75%;
     z-index: 0;
 }
 

@@ -120,7 +120,16 @@
 .view-our-coffee__btn {
     top: 49%;
 }
+.section-header{
+    margin-top: 5rem !important;
+    margin-bottom: 15rem !important;
+}
+.section-header__main-heading{
+    /*margin-bottom: 1rem;*/
+}
+.section-header__description{
 
+}
 /*Sections*/
 .our-coffee {
     padding-bottom: 0 !important;
@@ -157,6 +166,8 @@ hr {
 
 hr.section-heading__orange-line {
     border-bottom: 0.3rem solid var(--yellow);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .our-coffee {

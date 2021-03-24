@@ -38,7 +38,19 @@ $(document).ready(function () {
         });
     });
     gsap.to(".we-serve__background__bean",{
-        scrollTrigger: ".we-serve__background__bean",
+        scrollTrigger: {
+            toggleActions: "restart none none none",
+            trigger: ".we-serve__content",
+            markers: {
+                // customize the markers
+                startColor: "black",
+                endColor: "red",
+                fontSize: "1rem"
+            },
+            scrub: 2,
+            start: "top center",
+            end: () => "+=" + document.querySelector(".we-serve__content").offsetHeight
+        },
         x: 40,
         y: 500,
         rotation: 480,
@@ -84,6 +96,7 @@ $('.slick-center').slick({
     adaptiveHeight: true,
     lazyLoad: 'ondemand',
     mobileFirst: true,
+    autoplay: true,
     responsive: [
         {
             breakpoint: 1600,

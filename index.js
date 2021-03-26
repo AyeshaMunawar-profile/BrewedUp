@@ -47,7 +47,7 @@ $(document).ready(function () {
                 endColor: "red",
                 fontSize: "1rem"
             },
-            scrub: 5,
+            scrub: 3,
             start: "top center",
             end: () => "+=" + document.querySelector(".we-serve__content").offsetHeight
         }

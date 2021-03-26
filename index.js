@@ -53,15 +53,15 @@ $(document).ready(function () {
         }
     });
     beanAnimationTimeline.to(".we-serve__background__bean", {
-        x: "-=" + (document.querySelector(".we-serve__content").offsetWidth)* 0.75,
-        y: "+=" + (document.querySelector(".we-serve__content").offsetHeight)/2,
+        x: "-=" + (document.querySelector(".we-serve__content").offsetWidth) * 0.75,
+        y: "+=" + (document.querySelector(".we-serve__content").offsetHeight) / 2,
         rotation: 180,
         duration: 1,
         scale: 1.7
     })
         .to(".we-serve__background__bean", {
             x: "+=" + (document.querySelector(".we-serve__content").offsetWidth) * 0.6,
-            y: "+=" + ((document.querySelector(".we-serve__content").offsetHeight)/2),
+            y: "+=" + ((document.querySelector(".we-serve__content").offsetHeight) / 2.5),
             rotation: -180,
             duration: 1,
             scale: 1

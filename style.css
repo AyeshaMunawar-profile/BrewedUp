@@ -186,13 +186,13 @@
     margin-bottom: 0 !important;
 }
 /*Top banner */
-.top-banner--menu-items{
+.bottom-banner--menu-items{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-flow: row nowrap;
 }
-.top-banner__language,.top-banner__contact{
+.bottom-banner__language,.bottom-banner__contact{
     display: inline-block;
     text-decoration: none;
     margin-left: 10px;

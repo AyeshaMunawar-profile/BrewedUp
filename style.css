@@ -1,7 +1,7 @@
 /*General Customizations*/
 :root {
     font-family: 'Lato', sans-serif !important;
-    --black: #020826;
+    --black: #090700;
     --lightest-coffee: #f9f4ef;
     --white: #fffffe;
     --light-coffee: #eaddcf;
@@ -19,6 +19,7 @@
     font-size: 62.5% !important;
 }
 
+/*Text + Fonts */
 /*Text + Fonts */
 .text-color-lightest-coffee {
     color: var(--lightest-coffee) !important;
@@ -56,6 +57,46 @@
 .heading-text {
     font-size: 6rem;
     font-family: 'Playfair Display', serif !important;
+}
+/*Background colors */
+.bg-lightest-coffee {
+    background-color: var(--lightest-coffee) !important;
+}
+
+.bg-light-coffee {
+    background-color: var(--light-coffee) !important;
+}
+
+.bg-coffee {
+    background-color: var(--coffee) !important;
+}
+
+.bg-white {
+    background-color: var(--white) !important;
+}
+
+.bg-grey {
+    background-color: var(--grey) !important;
+}
+
+.bg-yellow {
+    background-color: var(--yellow) !important;
+}
+.bg-black {
+    background-color: var(--black) !important;
+}
+/*z-indexes*/
+.z-index-0{
+    z-index: 0;
+}
+.z-index-1{
+    z-index: 1;
+}
+.z-index-2{
+    z-index: 2;
+}
+.z-index-3{
+    z-index: 3;
 }
 
 /*Hover.css */
@@ -144,8 +185,19 @@
     padding-bottom: 0 !important;
     margin-bottom: 0 !important;
 }
-
-
+/*Top banner */
+.top-banner--menu-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+.top-banner__language,.top-banner__contact{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 /*Heading Section*/
 hr {
     width: 100%;

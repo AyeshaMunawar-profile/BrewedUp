@@ -53,11 +53,11 @@
     font-size: 8rem;
     font-family: 'Playfair Display', serif !important;
 }
-
 .heading-text {
     font-size: 6rem;
     font-family: 'Playfair Display', serif !important;
 }
+
 /*Background colors */
 .bg-lightest-coffee {
     background-color: var(--lightest-coffee) !important;
@@ -82,20 +82,25 @@
 .bg-yellow {
     background-color: var(--yellow) !important;
 }
+
 .bg-black {
     background-color: var(--black) !important;
 }
+
 /*z-indexes*/
-.z-index-0{
+.z-index-0 {
     z-index: 0;
 }
-.z-index-1{
+
+.z-index-1 {
     z-index: 1;
 }
-.z-index-2{
+
+.z-index-2 {
     z-index: 2;
 }
-.z-index-3{
+
+.z-index-3 {
     z-index: 3;
 }
 
@@ -169,7 +174,7 @@
 
 .section-header {
     margin-top: 5rem !important;
-    margin-bottom: 15rem !important;
+    margin-bottom: 12rem !important;
 }
 
 .section-header__main-heading {
@@ -185,19 +190,22 @@
     padding-bottom: 0 !important;
     margin-bottom: 0 !important;
 }
+
 /*Top banner */
-.bottom-banner--menu-items{
+.bottom-banner--menu-items {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-flow: row nowrap;
 }
-.bottom-banner__language,.bottom-banner__contact{
+
+.bottom-banner__language, .bottom-banner__contact {
     display: inline-block;
     text-decoration: none;
     margin-left: 10px;
     margin-right: 10px;
 }
+
 /*Heading Section*/
 hr {
     width: 100%;
@@ -488,10 +496,27 @@ hr.section-heading__orange-line {
     bottom: 10%;
     left: 0%;
 }
-/*Coffee and Us */
-.coffee-and-us{
+
+/*Coffee and Us Section*/
+.coffee-and-us {
     margin-top: 2rem;
 }
+
+.coffee-and-us__content {
+    text-align: center;
+    position: relative;
+
+}
+
+.coffee-and-us__background-image {
+    width: 85%;
+}
+
+.coffee-and-us__btn {
+    position: absolute;
+    top: 50%;
+}
+
 /*Media Queries*/
 /*X-Small Screen and screen sizes bellow it */
 @media screen and (max-width: 576px) {

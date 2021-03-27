@@ -13,14 +13,14 @@ $(document).ready(function () {
     ScrollTrigger.defaults({toggleActions: "restart pause resume pause"});
 
     // animate the orange lines bellow heading
-    gsap.utils.toArray(".section-heading__orange-line").forEach((line) => {
+    gsap.utils.toArray(".section-heading__orange-line--animated").forEach((line) => {
         var tl = gsap.timeline({
             scrollTrigger: {
                 trigger: line,
                 toggleAction: "restart none restart none",
-                start: "top 90%",
-                end: "top 20%",
-                markers: false,
+                start: "90% 90%",
+                end: "30% 50%",
+                markers: true,
                 scrub: 1,
                 // Console.log the event called for the enter leaving , reentering or releaving the scroll trigger
                 // area i.e distance between scroll start and scroll enter

@@ -120,7 +120,11 @@
     outline: none !important;
     border: none !important;
 }
-
+.navbar .navbar-toggler:focus{
+    color: transparent;
+}
+.navbar-toggler:hover,
+.navbar-toggler:link,
 .navbar-toggler:active,
 .navbar-toggler:focus {
     color: transparent;

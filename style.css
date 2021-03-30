@@ -592,11 +592,22 @@ hr.section-heading__line--orange{
     margin-bottom: 1.5rem;
     font-size: 2rem;
 }
+.footer__list__item:hover,
+.footer__list__item:active,
+.footer__list__item:focus{
+    font-weight: normal;
+}
 .main-footer__accordion__item{
     background-color: transparent;
     border: none;
 }
+.accordion-button::after{
+    margin-right: 5%;
+}
 .accordion-button{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: auto;
     text-align: center;
 }
 .accordion-button:not(.collapsed){

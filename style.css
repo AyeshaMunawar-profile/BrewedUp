@@ -254,17 +254,20 @@
 
 /*Heading Section*/
 hr {
-    width: 100%;
-    max-width: 5rem;
     border: none;
     border-bottom: 0.3rem solid var(--coffee);
     text-align: center;
 }
 
-hr.section-heading__orange-line {
-    border-bottom: 0.3rem solid var(--yellow);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+hr.section-heading__line {
+    text-align: center;
+    margin: 0 auto !important;
+    width: 100%;
+    max-width: 10rem;
+    opacity: 0.9;
+}
+hr.section-heading__line--orange{
+    border-bottom: 0.4rem solid var(--yellow);
 }
 
 .our-coffee {
@@ -282,7 +285,12 @@ hr.section-heading__orange-line {
     z-index: -10;
     position: relative;
 }
-
+.section-header__description{
+    margin-top: 2rem;
+}
+.section-header__main-heading{
+    margin-bottom: 2rem;
+}
 /*Navbar*/
 .nav-link {
     padding: 1rem 1rem !important;

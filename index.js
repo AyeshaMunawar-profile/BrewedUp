@@ -13,7 +13,7 @@ $(document).ready(function () {
     ScrollTrigger.defaults({toggleActions: "restart pause resume pause"});
 
     // animate the orange lines bellow heading
-    gsap.utils.toArray(".section-heading__orange-line--animated").forEach((line) => {
+    gsap.utils.toArray(".section-heading__line--animated").forEach((line) => {
         var tl = gsap.timeline({
             scrollTrigger: {
                 trigger: line,

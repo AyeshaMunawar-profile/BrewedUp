@@ -353,7 +353,12 @@ hr.section-heading__orange-line {
 .hvr-underline-from-center:before {
     background-color: var(--light-coffee) !important;
 }
-
+.hvr-underline-reveal:before{
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    background-color: var(--light-coffee) !important;
+}
 .box-border {
     border: 1rem solid var(--coffee-opacity-4);
     position: absolute;

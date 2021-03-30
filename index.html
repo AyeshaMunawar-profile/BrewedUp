@@ -15,18 +15,22 @@
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
           rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+            crossorigin="anonymous"></script>
     <link href="./assets/css/paper-kit.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"/>
 
     <!-- CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/hover-min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Add the slick-theme.css if you want default styling -->
-    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
+
     <!--Custom css file -->
     <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -526,7 +530,7 @@
     </div>
 </section>
 <footer class="section main-footer text-dark normal-text ">
-    <div class="main-footer__columns bg-coffee text-light d-lg-flex d-none">
+    <div class="main-footer__columns bg-light-coffee text-color-black d-lg-flex d-none">
         <ul class="footer__list main-footer__solutions col-3">
             <li class="footer__list__item__heading footer__list__item footer__list__item__solution font-weight-bold">
                 Solutions
@@ -582,63 +586,109 @@
         </ul>
     </div>
 
-    <div class="section main-footer__accordion bg-coffee text-light d-block d-lg-none">
-        <ul class="footer__accordion main-footer__solutions col-12">
-            <li class="footer__accordion__item__heading footer__accordion__item footer__accordion__item__solution font-weight-bold">
-                Solutions
-            </li>
-            <li class="footer__accordion__item footer__accordion__item__solution hvr-underline-reveal hvr-cursor-pointer">
-                Coffee at the Office
-            </li>
-            <li class="footer__accordion__item footer__accordion__item__solution hvr-underline-reveal hvr-cursor-pointer">
-                Coffee in Vending
-            </li>
-            <li class="footer__accordion__item footer__accordion__item__solution hvr-underline-reveal hvr-cursor-pointer">
-                Coffee in Cafe
-            </li>
-        </ul>
-        <ul class="footer__accordion main-footer__products col-12">
-            <li class="footer__accordion__item__heading footer__accordion__item footer__accordion__item__solution font-weight-bold">
-                Products
-            </li>
-            <li class="footer__accordion__item footer__accordion__item__product hvr-underline-reveal hvr-cursor-pointer">
-                Our Coffee
-            </li>
-            <li class="footer__accordion__item footer__accordion__item__product hvr-underline-reveal hvr-cursor-pointer">
-                Coffee Machines
-            </li>
-            <li class="footer__accordion__item footer__accordion__item__product hvr-underline-reveal hvr-cursor-pointer">
-                Services
-            </li>
-        </ul>
-        <ul class="footer__accordion main-footer__company col-12">
-            <li class="footer__accordion__item__heading footer__accordion__item footer__accordion__item__solution font-weight-bold">
-                Company
-            </li>
-            <li class="footer__accordion__item footer__accordion__item__company hvr-underline-reveal hvr-cursor-pointer">
-                Coffee and Us
-            </li>
-            <li class="footer__accordion__item footer__accordion__item__company hvr-underline-reveal hvr-cursor-pointer">
-                Contact Us
-            </li>
-        </ul>
-        <ul class="footer__accordion main-footer__need-help col-12">
-            <li class="footer__accordion__item__heading footer__accordion__item footer__accordion__item__solution font-weight-bold">
-                Need Help ?
-            </li>
-            <li class="footer__accordion__item footer__accordion__item__need-help hvr-underline-reveal hvr-cursor-pointer">
-                Customer Support
-            </li>
-            <li class="footer__accordion__item footer__accordion__item__need-help hvr-underline-reveal hvr-cursor-pointer">
-                FAQ
-            </li>
-            <li class="footer__accordion__item footer__accordion__item__need-help hvr-underline-reveal">Call Us <a
-                    class="footer__accordion__item__need-help__phone-number hvr-cursor-pointer" href="#">+370 5 240 43
-                43</a></li>
-        </ul>
+    <div id="main-footer__accordion"
+         class="accordion section main-footer__accordion bg-light-coffee text-color-black d-block d-lg-none">
+        <div class="accordion-item main-footer__accordion__item">
+            <h3 class="accordion-header footer__accordion__item__heading footer__accordion__item footer__accordion__item__solution font-weight-bold"
+                id="main-footer__accordion__item--solution">
+                <button class="accordion-button main-footer__accordion__item__heading__button text-center text-color-black normal-text" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                    Solutions
+                </button>
+            </h3>
+            <div id="collapseOne" aria-labelledby="main-footer__accordion__item--solution"
+                 data-bs-parent="#main-footer__accordion"
+                 class="accordion-collapse collapse footer__accordion main-footer__solutions col-12">
+                <ul class="accordion-body">
+                    <li class="footer__accordion__item footer__accordion__item__solution hvr-underline-reveal hvr-cursor-pointer">
+                        Coffee at the Office
+                    </li>
+                    <li class="footer__accordion__item footer__accordion__item__solution hvr-underline-reveal hvr-cursor-pointer">
+                        Coffee in Vending
+                    </li>
+                    <li class="footer__accordion__item footer__accordion__item__solution hvr-underline-reveal hvr-cursor-pointer">
+                        Coffee in Cafe
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="accordion-item main-footer__accordion__item">
+            <h3 class="accordion-header footer__accordion__item__heading footer__accordion__item footer__accordion__item__solution font-weight-bold"
+                id="main-footer__accordion__item--products">
+                <button class="accordion-button main-footer__accordion__item__heading__button text-center text-color-black normal-text" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="true" aria-controls="collapseTwo">
+                    Products
+                </button>
+            </h3>
+            <div id="collapseTwo" aria-labelledby="main-footer__accordion__item--products"
+                 data-bs-parent="#main-footer__accordion"
+                 class="accordion-collapse collapse footer__accordion main-footer__products col-12">
+                <ul class="accordion-body">
+                    <li class="footer__accordion__item footer__accordion__item__product hvr-underline-reveal hvr-cursor-pointer">
+                        Our Coffee
+                    </li>
+                    <li class="footer__accordion__item footer__accordion__item__product hvr-underline-reveal hvr-cursor-pointer">
+                        Coffee Machines
+                    </li>
+                    <li class="footer__accordion__item footer__accordion__item__product hvr-underline-reveal hvr-cursor-pointer">
+                        Services
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="accordion-item main-footer__accordion__item">
+            <h3 class="accordion-header footer__accordion__item__heading footer__accordion__item footer__accordion__item__solution font-weight-bold"
+                id="main-footer__accordion__item--company">
+                <button class="accordion-button main-footer__accordion__item__heading__button text-center text-color-black normal-text" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="true" aria-controls="collapseThree">
+                    Company
+                </button>
+            </h3>
+            <div id="collapseThree" aria-labelledby="main-footer__accordion__item--company"
+                 data-bs-parent="#main-footer__accordion"
+                 class="accordion-collapse collapse footer__accordion main-footer__company col-12">
+                <ul class="accordion-body">
+                    <li class="footer__accordion__item footer__accordion__item__company hvr-underline-reveal hvr-cursor-pointer">
+                        Coffee and Us
+                    </li>
+                    <li class="footer__accordion__item footer__accordion__item__company hvr-underline-reveal hvr-cursor-pointer">
+                        Contact Us
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="accordion-item main-footer__accordion__item">
+            <h3 class="accordion-header footer__accordion__item__heading footer__accordion__item footer__accordion__item__solution font-weight-bold"
+                id="main-footer__accordion__item--need-help">
+                <button class="accordion-button main-footer__accordion__item__heading__button text-center text-color-black normal-text" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour"
+                        aria-expanded="true" aria-controls="collapseFour">
+                    Need Help?
+                </button>
+            </h3>
+            <div id="collapseFour" aria-labelledby="main-footer__accordion__item--need-help"
+                 data-bs-parent="#main-footer__accordion"
+                 class="accordion-collapse collapse footer__accordion main-footer__need-help col-12">
+                <ul class="accordion-body">
+                    <li class="footer__accordion__item footer__accordion__item__need-help hvr-underline-reveal hvr-cursor-pointer">
+                        Customer Support
+                    </li>
+                    <li class="footer__accordion__item footer__accordion__item__need-help hvr-underline-reveal hvr-cursor-pointer">
+                        FAQ
+                    </li>
+                    <li class="footer__accordion__item footer__accordion__item__need-help hvr-underline-reveal">Call Us
+                        <a
+                                class="footer__accordion__item__need-help__phone-number hvr-cursor-pointer" href="#">+370
+                            5 240
+                            43
+                            43</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </footer>
-
 
 <nav class="bottom-banner bg-black text-light d-none d-xl-block z-index-3">
     <div class="bottom-banner--menu-items">

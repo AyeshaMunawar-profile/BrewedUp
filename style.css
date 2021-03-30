@@ -115,11 +115,15 @@
 }
 
 /*Buttons */
-.navbar-toggler {
+.navbar-toggler, .toggled {
     outline: none !important;
     border: none !important;
 }
-
+.navbar .navbar-toggler:focus{
+    color: transparent;
+}
+.navbar-toggler:hover,
+.navbar-toggler:link,
 .navbar-toggler:active,
 .navbar-toggler:focus {
     outline: none !important;
@@ -298,7 +302,7 @@ hr.section-heading__line--orange{
 }
 
 .navbar-container {
-    min-width: 97vw;
+    max-width: 97vw;
     margin-left: 1.5vw;
     margin-right: 1.5vw;
     padding-right: 0;

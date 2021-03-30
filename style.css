@@ -617,6 +617,7 @@ hr.section-heading__line--orange{
 .accordion-button:not(.collapsed){
     background-color: transparent;
     color: var(--black);
+    font-weight: normal;
 }
 .accordion-button:not(.collapsed)::after{
     filter: sepia(2);
@@ -638,6 +639,7 @@ hr.section-heading__line--orange{
     background-color: transparent;
     border: none;
     outline: none;
+    font-weight: bold;
 }
 .footer__list__item {
     display: block;

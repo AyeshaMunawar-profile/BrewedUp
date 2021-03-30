@@ -20,7 +20,7 @@ $(document).ready(function () {
                 toggleAction: "restart none restart none",
                 start: "90% 90%",
                 end: "30% 50%",
-                markers: true,
+                markers: false,
                 scrub: 1,
                 // Console.log the event called for the enter leaving , reentering or releaving the scroll trigger
                 // area i.e distance between scroll start and scroll enter
@@ -41,12 +41,13 @@ $(document).ready(function () {
         scrollTrigger: {
             toggleActions: "restart complete reverse complete",
             trigger: ".we-serve__content",
-            markers: {
-                // customize the markers
-                startColor: "black",
-                endColor: "red",
-                fontSize: "1rem"
-            },
+            markers: false,
+            // markers: {
+            //     // customize the markers
+            //     startColor: "black",
+            //     endColor: "red",
+            //     fontSize: "1rem"
+            // },
             scrub: 3,
             start: "top center",
             end: () => "+=" + document.querySelector(".we-serve__content").offsetHeight

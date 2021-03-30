@@ -17,8 +17,12 @@
     /*change 10px to percentage unit so that if the default font siz eof the browser is changed */
     /*from 16px to something else by the user the units adjust according to it */
     font-size: 62.5% !important;
+    box-sizing: border-box;
 }
-
+*{
+    outline: none;
+    box-sizing: inherit;
+}
 /*Text + Fonts */
 /*Text + Fonts */
 .text-color-lightest-coffee {
@@ -112,14 +116,14 @@
 
 /*Buttons */
 .navbar-toggler {
-    outline: none;
-    border: none;
+    outline: none !important;
+    border: none !important;
 }
 
 .navbar-toggler:active,
 .navbar-toggler:focus {
-    outline: none;
-    border: none;
+    outline: none !important;
+    border: none !important;
 }
 
 /*Brewedup Buttons */

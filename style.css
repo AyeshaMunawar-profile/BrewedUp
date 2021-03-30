@@ -106,9 +106,10 @@
 }
 
 /*Hover.css */
-.hvr-cursor-pointer:hover{
+.hvr-cursor-pointer:hover {
     cursor: pointer;
 }
+
 .brewed-up-btn-dark.hvr-sweep-to-top:before,
 .brewed-up-btn-dark.hvr-sweep-to-bottom:before,
 .brewed-up-btn-dark.hvr-sweep-to-right:before,
@@ -522,30 +523,48 @@ hr.section-heading__orange-line {
 }
 
 /*Footers*/
-.main-footer__columns{
+.main-footer__columns {
     padding: 7rem 3rem;
     display: flex;
     justify-content: space-evenly;
     align-items: start;
     flex-flow: row nowrap;
 }
-.footer__list__item,.footer__list__item__heading{
+
+.footer__list__item,
+.footer__list__item__heading,
+.footer__accordion__item,
+.footer__list__item__heading {
     display: block;
     margin-bottom: 1.5rem;
     font-size: 2rem;
 }
-.footer__list__item{
+
+.footer__list__item {
     display: block;
     margin-bottom: 1rem;
     font-size: 1.8rem;
     padding-bottom: 0.5rem;
 }
-.footer__list__item__need-help__phone-number{
+
+.footer__accordion__item {
+    text-align: center;
+    display: block;
+    margin-bottom: 1.2rem;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.footer__list__item__need-help__phone-number,
+.footer__accordion__item__need-help__phone-number {
     color: var(--lightest-coffee);
 }
-.footer__list__item__need-help__phone-number:hover{
+
+.footer__list__item__need-help__phone-number:hover,
+.footer__accordion__item__need-help__phone-number:hover {
     color: var(--white);
 }
+
 /*Media Queries*/
 /*X-Small Screen and screen sizes bellow it */
 @media screen and (max-width: 576px) {
@@ -706,6 +725,7 @@ hr.section-heading__orange-line {
 }
 
 @media screen and (min-width: 890px) and (max-width: 1078px ) {
+
     .we-serve-image-caption-left p {
         display: none;
     }

@@ -693,6 +693,9 @@ hr.section-heading__line--orange {
     font-weight: normal;
 }
 /*Sub Footer*/
+.sub-footer__newsletter{
+    padding: 5%;
+}
 .sub-footer__newsletter__policy-warning-form{
     display: flex;
     flex-flow: row nowrap;
@@ -703,8 +706,22 @@ hr.section-heading__line--orange {
     margin: 0px;
     margin-left: 2rem;
 }
+.sub-footer__newsletter__check-box:checked{
+    background-color: var(--coffee);
+    color: var(--white);
+    border-color: var(--lightest-coffee);
+    box-shadow: none;
+    outline: 1 px solid var(--coffee);
+}
+.sub-footer__newsletter__check-box:focus{
+    box-shadow: none;
+    outline: none;
+    border-color: var(--coffee);
+}
+
 .sub-footer__social-media{
     text-align: center;
+    padding: 5%;
 }
 .sub-footer__social-media__heading{
     font-weight: bold;

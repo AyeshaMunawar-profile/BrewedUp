@@ -130,6 +130,7 @@
 
 /*Buttons */
 .brewed-up-btn-dark {
+    text-decoration: none;
     cursor: pointer;
     font-weight: bold;
     letter-spacing: 0.4rem;
@@ -146,12 +147,14 @@
 .brewed-up-btn-dark:hover,
 .brewed-up-btn-dark:active,
 .brewed-up-btn-dark:focus {
+    text-decoration: none;
     background-color: transparent;
     color: var(--black);
     border: 0.2rem solid var(--black);
 }
 
 .brewed-up-btn-light {
+    text-decoration: none;
     cursor: pointer;
     font-weight: bold;
     letter-spacing: 0.4rem;
@@ -168,6 +171,7 @@
 .brewed-up-btn-light:hover,
 .brewed-up-btn-light:active,
 .brewed-up-btn-light:focus {
+    text-decoration: none;
     background-color: var(--coffee);
     color: var(--white) !important;
     border: 0.2rem solid transparent;
@@ -562,12 +566,14 @@ hr.section-heading__orange-line {
 
 .footer__list__item__need-help__phone-number,
 .footer__accordion__item__need-help__phone-number {
+    text-decoration: none;
     color: var(--lightest-coffee);
 }
 
 .footer__list__item__need-help__phone-number:hover,
 .footer__accordion__item__need-help__phone-number:hover {
     color: var(--white);
+    font-weight: normal;
 }
 
 /*Media Queries*/

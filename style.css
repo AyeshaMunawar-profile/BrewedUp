@@ -252,7 +252,16 @@
     margin-left: 10px;
     margin-right: 10px;
 }
-
+.bottom-banner__contact a{
+    text-decoration: none;
+}
+.bottom-banner__language a{
+    text-decoration: none;
+}
+.bottom-banner__language a:hover,
+.bottom-banner__contact a:hover{
+    font-weight: normal;
+}
 /*Heading Section*/
 hr {
     border: none;

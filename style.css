@@ -110,6 +110,19 @@
     cursor: pointer;
 }
 
+/*Buttons */
+.navbar-toggler {
+    outline: none;
+    border: none;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:focus {
+    outline: none;
+    border: none;
+}
+
+/*Brewedup Buttons */
 .brewed-up-btn-dark.hvr-sweep-to-top:before,
 .brewed-up-btn-dark.hvr-sweep-to-bottom:before,
 .brewed-up-btn-dark.hvr-sweep-to-right:before,
@@ -128,7 +141,6 @@
     transition: all .3s ease-in-out;
 }
 
-/*Buttons */
 .brewed-up-btn-dark {
     text-decoration: none;
     cursor: pointer;
@@ -192,6 +204,27 @@
 
 .section-header__description {
 
+}
+
+/*Navbar*/
+.navbar-collapse {
+    padding-left: 2rem;
+    border: none;
+}
+
+.navbar .navbar-collapse:after {
+    background-color: var(--black);
+    border: none;
+}
+
+.navbar-collapse .navbar-nav > .nav-item > .nav-link {
+    width: 100%;
+    color: var(--lightest-coffee) !important;
+    font-size: 3rem !important;
+}
+
+.navbar-collapse .navbar-nav > .nav-item > .nav-link:hover {
+    color: var(--white) !important;
 }
 
 /*Sections*/
@@ -357,12 +390,18 @@ hr.section-heading__orange-line {
 .hvr-underline-from-center:before {
     background-color: var(--light-coffee) !important;
 }
-.hvr-underline-reveal:before{
+
+.hvr-underline-from-left:before {
+    background-color: var(--light-coffee) !important;
+}
+
+.hvr-underline-reveal:before {
     margin-left: 25%;
     margin-right: 25%;
     width: 50%;
     background-color: var(--light-coffee) !important;
 }
+
 .box-border {
     border: 1rem solid var(--coffee-opacity-4);
     position: absolute;
@@ -547,6 +586,11 @@ hr.section-heading__orange-line {
     display: block;
     margin-bottom: 1.5rem;
     font-size: 2rem;
+}
+
+.footer__list__item__heading,
+.footer__accordion__item__heading {
+    font-weight: bold;
 }
 
 .footer__list__item {

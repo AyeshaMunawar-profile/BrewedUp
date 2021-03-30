@@ -116,12 +116,14 @@
 
 /*Buttons */
 .navbar-toggler {
+    color: transparent;
     outline: none !important;
     border: none !important;
 }
 
 .navbar-toggler:active,
 .navbar-toggler:focus {
+    color: transparent;
     outline: none !important;
     border: none !important;
 }
@@ -221,15 +223,6 @@
     border: none;
 }
 
-.navbar-collapse .navbar-nav > .nav-item > .nav-link {
-    width: 100%;
-    color: var(--lightest-coffee) !important;
-    font-size: 3rem !important;
-}
-
-.navbar-collapse .navbar-nav > .nav-item > .nav-link:hover {
-    color: var(--white) !important;
-}
 
 /*Sections*/
 .our-coffee {
@@ -298,9 +291,9 @@ hr.section-heading__line--orange{
 }
 
 .navbar-container {
-    min-width: 97vw;
+    min-width: 96vw;
     margin-left: 1.5vw;
-    margin-right: 1.5vw;
+    margin-right: 2.5vw;
     padding-right: 0;
     padding-left: 0;
 }
@@ -411,7 +404,7 @@ hr.section-heading__line--orange{
     margin-left: 25%;
     margin-right: 25%;
     width: 50%;
-    background-color: var(--light-coffee) !important;
+    background-color: var(--gray-dark) !important;
 }
 
 .box-border {
@@ -599,12 +592,38 @@ hr.section-heading__line--orange{
     margin-bottom: 1.5rem;
     font-size: 2rem;
 }
-
+.main-footer__accordion__item{
+    background-color: transparent;
+    border: none;
+}
+.accordion-button{
+    text-align: center;
+}
+.accordion-button:not(.collapsed){
+    background-color: transparent;
+    color: var(--black);
+}
+.accordion-button:not(.collapsed)::after{
+    filter: sepia(2);
+}
+.accordion-button:focus{
+    border: none;
+    box-shadow: none;
+    font-weight: bold;
+}
+.main-footer__accordion__item__heading__button{
+    background-color: transparent;
+    border: none;
+}
 .footer__list__item__heading,
 .footer__accordion__item__heading {
     font-weight: bold;
 }
-
+.footer__accordion__item__heading{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
 .footer__list__item {
     display: block;
     margin-bottom: 1rem;
@@ -619,16 +638,20 @@ hr.section-heading__line--orange{
     font-size: 2rem;
     padding-bottom: 1rem;
 }
-
+.footer__accordion__item:hover,
+.footer__accordion__item:active,
+.footer__accordion__item:focus{
+    font-weight: normal;
+}
 .footer__list__item__need-help__phone-number,
 .footer__accordion__item__need-help__phone-number {
     text-decoration: none;
-    color: var(--lightest-coffee);
+    color: var(--black);
 }
 
 .footer__list__item__need-help__phone-number:hover,
 .footer__accordion__item__need-help__phone-number:hover {
-    color: var(--white);
+    color: var(--black);
     font-weight: normal;
 }
 
@@ -685,6 +708,16 @@ hr.section-heading__line--orange{
         order: 1;
     }
 
+
+    .navbar-collapse .navbar-nav > .nav-item > .nav-link {
+        width: 100%;
+        color: var(--lightest-coffee) !important;
+        font-size: 3rem !important;
+    }
+
+    .navbar-collapse .navbar-nav > .nav-item > .nav-link:hover {
+        color: var(--white) !important;
+    }
 }
 
 /*Small Screen*/
@@ -733,6 +766,16 @@ hr.section-heading__line--orange{
 
     .we-serve__item__image-and-caption {
         order: 1;
+    }
+
+    .navbar-collapse .navbar-nav > .nav-item > .nav-link {
+        width: 100%;
+        color: var(--lightest-coffee) !important;
+        font-size: 3rem !important;
+    }
+
+    .navbar-collapse .navbar-nav > .nav-item > .nav-link:hover {
+        color: var(--white) !important;
     }
 }
 
@@ -788,6 +831,16 @@ hr.section-heading__line--orange{
     .we-serve__item__image--left, .we-serve__item__image--right {
         width: 100%;
         height: auto;
+    }
+
+    .navbar-collapse .navbar-nav > .nav-item > .nav-link {
+        width: 100%;
+        color: var(--lightest-coffee) !important;
+        font-size: 3rem !important;
+    }
+
+    .navbar-collapse .navbar-nav > .nav-item > .nav-link:hover {
+        color: var(--white) !important;
     }
 }
 
@@ -875,6 +928,16 @@ hr.section-heading__line--orange{
         display: flex;
         justify-content: space-between;
         flex-flow: row nowrap;
+    }
+
+    .navbar-collapse .navbar-nav > .nav-item > .nav-link {
+        width: 100%;
+        color: var(--lightest-coffee) !important;
+        font-size: 3rem !important;
+    }
+
+    .navbar-collapse .navbar-nav > .nav-item > .nav-link:hover {
+        color: var(--white) !important;
     }
 }
 

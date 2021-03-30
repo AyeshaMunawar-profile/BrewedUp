@@ -1,6 +1,9 @@
 $(document).ready(function () {
     AOS.init(); // initiate animate on scroll instance
     gsap.registerPlugin(ScrollTrigger);
+    $('[data-toggle="collapse"]').click(function() {
+        $('.collapse.in').collapse('hide')
+    });
     let changeBorderColor = function (event) {
         let targetID = event.target.lastChild.previousSibling.id ? event.target.lastChild.previousSibling.id : null;
         targetID ? document.getElementById(targetID).classList.toggle("box-border-dark") : null;

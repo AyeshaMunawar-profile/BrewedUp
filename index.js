@@ -1,7 +1,7 @@
 $(document).ready(function () {
     AOS.init(); // initiate animate on scroll instance
     gsap.registerPlugin(ScrollTrigger);
-    $('[data-toggle="collapse"]').click(function() {
+    $('[data-toggle="collapse"]').click(function () {
         $('.collapse.in').collapse('hide')
     });
     let changeBorderColor = function (event) {
@@ -65,7 +65,7 @@ $(document).ready(function () {
     })
         .to(".we-serve__background__bean", {
             x: "+=" + (document.querySelector(".we-serve__content").offsetWidth) * 0.65,
-            y: "+=" + ((document.querySelector(".we-serve__content").offsetHeight) / 2),
+            y: "+=" + ((document.querySelector(".we-serve__content").offsetHeight) / 2.1),
             rotation: -180,
             duration: 1,
             scale: 1

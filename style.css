@@ -24,7 +24,9 @@
     outline: none;
     box-sizing: inherit;
 }
-
+a{
+    text-decoration: none;
+}
 /*Text + Fonts */
 /*Text + Fonts */
 .text-color-lightest-coffee {
@@ -738,6 +740,14 @@ hr.section-heading__line--orange {
 .sub-footer__social-media__icons{
     font-size: 5rem;
     padding: 1rem;
+}
+.sub-footer__social-media__icons__link i{
+    color: var(--grey);
+}
+.sub-footer__social-media__icons__link i:hover,
+.sub-footer__social-media__icons__link i:active,
+.sub-footer__social-media__icons__link i:focus{
+    color: var(--black);
 }
 
 /*Media Queries*/

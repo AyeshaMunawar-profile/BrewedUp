@@ -5,7 +5,7 @@ This is a landing page of a company "Brewed Up" .
 
 **Coffee and Us**
 
-We — Coffee Address — are a coffee company with a straightforward 
+We — Brewed Up— are a coffee company with a straightforward 
 mission: to make an office and on-the-go cup of coffee that we’d like to drink ourselves.
 
 **Tools used**

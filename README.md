@@ -28,4 +28,5 @@ mission: to make an office and on-the-go cup of coffee that we’d like to drink
 2) The user can contact us using the contact us page
 3) The page is organized in such a way that it provided the user with clear information related to the products well sell 
 and all the services we provide using beautiful graphics and carousels and maps 
+4) The website is responsive for all screen sizes
 

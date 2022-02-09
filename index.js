@@ -58,14 +58,14 @@ $(document).ready(function () {
     });
     beanAnimationTimeline.to(".we-serve__background__bean", {
         x: "-=" + (document.querySelector(".we-serve__content").offsetWidth) * 0.75,
-        y: "+=" + (document.querySelector(".we-serve__content").offsetHeight) / 2,
+        y: "+=" + (document.querySelector(".we-serve__content").offsetHeight) / 3,
         rotation: 180,
         duration: 1,
         scale: 1.7
     })
         .to(".we-serve__background__bean", {
             x: "+=" + (document.querySelector(".we-serve__content").offsetWidth) * 0.65,
-            y: "+=" + ((document.querySelector(".we-serve__content").offsetHeight) / 2.1),
+            y: "+=" + ((document.querySelector(".we-serve__content").offsetHeight)-(document.querySelector(".we-serve__content").offsetHeight) /1.8),
             rotation: -180,
             duration: 1,
             scale: 1

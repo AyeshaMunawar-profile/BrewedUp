@@ -261,9 +261,10 @@ a {
 }
 
 /*Top banner */
-.bottom-banner{
+.bottom-banner {
     padding: 1rem 0rem;
 }
+
 .bottom-banner--menu-items {
     display: flex;
     justify-content: space-between;
@@ -318,7 +319,7 @@ hr.section-heading__line--orange {
 
 .view-our-coffee {
     position: relative;
-    top: 3rem;
+    top: 7rem;
     text-align: center;
 }
 
@@ -364,6 +365,10 @@ hr.section-heading__line--orange {
 }
 
 /*Products Carousel*/
+.carousel-item:hover {
+    cursor: pointer;
+}
+
 .carousel-item__sub-heading {
     margin-top: 0.5rem;
 }
@@ -577,7 +582,7 @@ hr.section-heading__line--orange {
 
 .we-serve__content {
     padding-top: 5rem;
-    top: -3rem;
+    top: 0;
     background-color: var(--lightest-coffee);
 }
 
@@ -609,7 +614,7 @@ hr.section-heading__line--orange {
 
 /*Coffee and Us Section*/
 .coffee-and-us {
-    margin-top: 2rem;
+    margin-top: 0rem;
 }
 
 .coffee-and-us__content {
@@ -757,18 +762,21 @@ hr.section-heading__line--orange {
     box-shadow: none;
     outline: 1px solid var(--coffee);
 }
-.sub-footer__newsletter__subscription-form__subscribe-btn{
+
+.sub-footer__newsletter__subscription-form__subscribe-btn {
     padding: 0 1.5rem;
     background-color: var(--grey);
     color: white;
 }
+
 .sub-footer__newsletter__subscription-form__subscribe-btn:hover,
 .sub-footer__newsletter__subscription-form__subscribe-btn:focus,
-.sub-footer__newsletter__subscription-form__subscribe-btn:active{
+.sub-footer__newsletter__subscription-form__subscribe-btn:active {
     padding: 0 1.5rem;
     background-color: var(--grey-dark);
     transition: all 0.5s ease-in-out;
 }
+
 .sub-footer__newsletter__check-box:focus {
     box-shadow: none;
     outline: none;
@@ -802,8 +810,12 @@ hr.section-heading__line--orange {
 /*Media Queries*/
 /*X-Small Screen and screen sizes bellow it */
 @media screen and (max-width: 576px) {
+    :root {
+        font-size: 35% !important;
+    }
+
     .large-text {
-        font-size: 4.8rem;
+        font-size: 4rem;
     }
 
     .normal-text {
@@ -866,6 +878,10 @@ hr.section-heading__line--orange {
 
 /*Small Screen*/
 @media screen and (min-width: 577px) and (max-width: 690px) {
+    :root {
+        font-size: 40% !important;
+    }
+
     .large-text {
         font-size: 5.6rem;
     }
@@ -925,6 +941,10 @@ hr.section-heading__line--orange {
 
 /*Large Screen */
 @media screen and (min-width: 691px) and (max-width: 889px) {
+    :root {
+        font-size: 50% !important;
+    }
+
     .large-text {
         font-size: 4.8rem;
     }
@@ -993,6 +1013,9 @@ hr.section-heading__line--orange {
 }
 
 @media screen and (min-width: 890px) and (max-width: 1078px ) {
+    :root {
+        font-size: 55% !important;
+    }
 
     .we-serve-image-caption-left p {
         display: none;
@@ -1099,6 +1122,10 @@ hr.section-heading__line--orange {
 
 /*Extra Large Screen */
 @media screen and (min-width: 1079px) and (max-width: 1400px) {
+    :root {
+        font-size: 60% !important;
+    }
+
     .large-text {
         font-size: 3.9rem;
     }
@@ -1162,6 +1189,10 @@ hr.section-heading__line--orange {
 
 /*Extra Extra Large Screen*/
 @media screen and (min-width: 1401px ) and (max-width: 1600px) {
+    :root {
+        font-size: 62% !important;
+    }
+
     .large-text {
         font-size: 5.5rem;
     }
@@ -1218,6 +1249,10 @@ hr.section-heading__line--orange {
 
 /*All the remaining larger screen sizes*/
 @media screen and (min-width: 1600px) {
+    :root {
+        font-size: 62.5% !important;
+    }
+
     .large-text {
         font-size: 7rem;
     }

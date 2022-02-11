@@ -51,7 +51,7 @@ $(document).ready(function () {
             //     endColor: "red",
             //     fontSize: "1rem"
             // },
-            scrub: 3,
+            scrub: 1,
             start: "top center",
             end: () => "+=" + document.querySelector(".we-serve__content").offsetHeight
         }

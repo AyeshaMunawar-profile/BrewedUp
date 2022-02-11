@@ -810,6 +810,14 @@ hr.section-heading__line--orange {
 /*Media Queries*/
 /*X-Small Screen and screen sizes bellow it */
 @media screen and (max-width: 576px) {
+    .section-header__main-heading {
+        font-size: 7rem;
+    }
+
+    .heading-text {
+        font-size: 5rem;
+    }
+
     :root {
         font-size: 35% !important;
     }
@@ -819,11 +827,11 @@ hr.section-heading__line--orange {
     }
 
     .normal-text {
-        font-size: 2.3rem;
+        font-size: 2.5rem !important;
     }
 
     .small-text {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     .carousel-item__content {
@@ -878,6 +886,14 @@ hr.section-heading__line--orange {
 
 /*Small Screen*/
 @media screen and (min-width: 577px) and (max-width: 690px) {
+    .section-header__main-heading {
+        font-size: 7rem;
+    }
+
+    .heading-text {
+        font-size: 5rem;
+    }
+
     :root {
         font-size: 40% !important;
     }
@@ -887,11 +903,11 @@ hr.section-heading__line--orange {
     }
 
     .normal-text {
-        font-size: 2.4rem;
+        font-size: 2.6rem;
     }
 
     .small-text {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .carousel-item__content {
@@ -941,6 +957,14 @@ hr.section-heading__line--orange {
 
 /*Large Screen */
 @media screen and (min-width: 691px) and (max-width: 889px) {
+    .section-header__main-heading {
+        font-size: 7rem;
+    }
+
+    .heading-text {
+        font-size: 5rem;
+    }
+
     :root {
         font-size: 50% !important;
     }
@@ -958,11 +982,11 @@ hr.section-heading__line--orange {
     }
 
     .normal-text {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .small-text {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .carousel-item__content {

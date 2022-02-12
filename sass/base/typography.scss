@@ -1,0 +1,107 @@
+/*Text + Fonts */
+.text-color-lightest-coffee {
+  color: $lightest-coffee !important;
+}
+
+.text-color-light-coffee {
+  color: $light-coffee !important;
+}
+
+.text-color-coffee {
+  color: $coffee !important;
+}
+
+.text-color-white {
+  color: $white !important;
+}
+
+.text-color-grey {
+  color: $grey;
+}
+
+.text-color-grey-dark {
+  color: $grey-dark;
+}
+
+.text-color-grey-darker {
+  color: $grey-darker;
+}
+
+.text-color-yellow {
+  color: $yellow;
+}
+
+.large-text {
+  font-size: 6rem;
+  @include respond(big-desktop) {
+    font-size: 5.8rem;
+  }
+  @include respond(tab-land) {
+    font-size: 5.5rem;
+  }
+  @include respond(tab-port) {
+    font-size: 5rem;
+  }
+  @include respond(phone) {
+    font-size: 4rem;
+  }
+}
+
+.normal-text {
+  font-size: 2rem;
+  font-family: 'Lato', sans-serif !important;
+  @include respond(big-desktop) {
+    font-size: 3rem;
+  }
+  @include respond(tab-land) {
+    font-size: 2.8rem;
+  }
+  @include respond(tab-port) {
+    font-size: 2.5rem;
+  }
+  @include respond(phone) {
+    font-size: 2.2rem;
+  }
+}
+
+.small-text {
+  font-size: 1.3rem;
+  @include respond(big-desktop) {
+    font-size: 1.3rem;
+  }
+  @include respond(tab-land) {
+    font-size: 1rem;
+  }
+  @include respond(tab-port) {
+    font-size: 2rem;
+  }
+  @include respond(phone) {
+    font-size: 1.7rem;
+  }
+}
+
+.section-heading--main {
+  font-size: 8rem;
+  font-family: 'Playfair Display', serif !important;
+  margin-bottom: 3rem;
+  @include respond(tab-land) {
+    font-size: 7rem;
+  }
+}
+
+.heading-text {
+  font-size: 6rem;
+  font-family: 'Playfair Display', serif !important;
+  @include respond(big-desktop) {
+    font-size: 7rem;
+  }
+  @include respond(tab-land) {
+    font-size: 6.8rem;
+  }
+  @include respond(tab-port) {
+    font-size: 6.5rem;
+  }
+  @include respond(phone) {
+    font-size: 5rem;
+  }
+}

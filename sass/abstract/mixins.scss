@@ -1,0 +1,71 @@
+@mixin clear-fix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin box-shadow-default {
+  & {
+    box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+    0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  }
+}
+
+@mixin absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+//MEDIA QUERIES MANAGER
+/*
+ Breakpoints
+ 1)Phone: 0 - 600px
+ 2)Tablet (Portrait): 600px-900px
+ 3)Tablet (Landscape): 900px-1200px
+ 4)Desktop : 1200px - 1800px (Normal Styles apply)
+ 5) Bigger Desktop: 1800px +
+*/
+
+// break point argument choices :
+// -phone
+// -tab-port
+// -tab-land
+// -big-desktop
+// rem does not always works in media queries so use em
+// 1em = 16px
+@mixin respond($breakpoint) {
+  //300px
+  @if $breakpoint == small-phone {
+    @media (max-width: 18.75em) {
+      @content
+    }
+  }
+  //600px
+  @if $breakpoint == phone {
+    @media (max-width: 37.5em) {
+      @content
+    }
+  }
+  //900px
+  @if $breakpoint == tab-port {
+    @media (max-width: 56.25em) {
+      @content
+    }
+  }
+  //1200px
+  @if $breakpoint == tab-land {
+    @media (max-width: 75em) {
+      @content
+    }
+  }
+  //1800px
+  @if $breakpoint == big-desktop {
+    @media (min-width: 112.5em) {
+      @content
+    }
+  }
+}

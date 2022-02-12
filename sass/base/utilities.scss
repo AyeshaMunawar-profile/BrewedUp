@@ -1,0 +1,58 @@
+/*Background colors */
+.bg-lightest-coffee {
+  background-color: $lightest-coffee !important;
+}
+
+.bg-light-coffee {
+  background-color: $light-coffee !important;
+}
+
+.bg-coffee {
+  background-color: $coffee !important;
+}
+
+.bg-white {
+  background-color: $white !important;
+}
+
+.bg-grey {
+  background-color: $grey !important;
+}
+
+.bg-grey-dark {
+  background-color: $grey-dark !important;
+}
+
+.bg-grey-darker {
+  background-color: $grey-darker !important;
+}
+
+.bg-yellow {
+  background-color: $yellow !important;
+}
+
+.bg-black {
+  background-color: $black !important;
+}
+
+/*z-indexes*/
+.z-index-0 {
+  z-index: 0;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
+.z-index-3 {
+  z-index: 3;
+}
+
+/*Hover.css */
+.hvr-cursor-pointer:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.custom-check-box {
+  margin: 0 0 0 2rem;
+
+  &:checked {
+    background-color: $coffee;
+    color: $white;
+    border-color: $lightest-coffee;
+    box-shadow: none;
+    outline: 1px solid $coffee;
+  }
+}
+

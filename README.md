@@ -11,7 +11,7 @@ mission: to make an office and on-the-go cup of coffee that we’d like to drink
 **Tools used**
 
 1) HTML 5 
-2) CSS 3
+2) SASS
 3) BOOTSTRAP 5
 4) ANIMATE.CSS
 5) PAPER KIT 
@@ -29,4 +29,7 @@ mission: to make an office and on-the-go cup of coffee that we’d like to drink
 3) The page is organized in such a way that it provided the user with clear information related to the products well sell 
 and all the services we provide using beautiful graphics and carousels and maps 
 4) The website is responsive for all screen sizes
+5) I have organized all the elements in the form of components to make them reusable 
+6) I used **BEM** to name classes `block , element and modifier`
+7) I used 7-1 to create manageable codebase for sass
 

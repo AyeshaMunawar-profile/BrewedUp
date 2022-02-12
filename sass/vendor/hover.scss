@@ -1,0 +1,14 @@
+.hvr-underline-from-center:before {
+  background-color: $light-coffee !important;
+}
+
+.hvr-underline-from-left:before {
+  background-color: $light-coffee !important;
+}
+
+.hvr-underline-reveal:before {
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  background-color: $grey-dark !important;
+}

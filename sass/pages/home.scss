@@ -1,0 +1,61 @@
+.our-coffee {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.our-coffee {
+  margin-bottom: 7rem;
+  background-color: transparent;
+}
+
+.view-our-coffee {
+  position: relative;
+  top: 1.5rem;
+  text-align: center;
+  padding: 10rem 0rem 0 0;
+  @include respond(tab-port) {
+    top: 0;
+    margin: 10rem 0;
+    &__image {
+      display: none;
+    }
+  }
+}
+
+.view-our-coffee__btn {
+  top: 49%;
+  @include respond(tab-port) {
+    top: 0;
+  }
+}
+
+.coffee-text-image {
+  z-index: -10;
+  position: relative;
+}
+
+
+.coffee-and-us {
+  margin-top: 0rem;
+
+  &__content {
+    text-align: center;
+    position: relative;
+
+  }
+
+  &__background-image {
+    width: 85%;
+  }
+
+  &__btn {
+    position: absolute;
+    top: 43%;
+  }
+}
+
+.section-services {
+  padding: 5rem 0;
+  background-color: $lightest-coffee;
+}
+

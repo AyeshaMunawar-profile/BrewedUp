@@ -1,0 +1,79 @@
+.sub-footer {
+  &__newsletter {
+    padding: 5%;
+
+    &__check-box {
+      margin-top: 0;
+      margin-left: 1rem;
+
+      &:checked {
+        background-color: $coffee;
+        color: $white;
+        border-color: $lightest-coffee;
+        box-shadow: none;
+        outline: 1px solid $coffee;
+      }
+
+      &:focus {
+        box-shadow: none;
+        outline: none;
+        border-color: $coffee;
+      }
+    }
+
+    &__policy-warning-form {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: start;
+      align-items: center;
+
+      &__checkbox {
+        margin-top: 0 !important;
+        margin-left: 2rem !important;
+      }
+    }
+
+    &__subscription-form__subscribe-btn {
+      padding: 0 1.5rem;
+      background-color: $grey;
+      color: white;
+
+      &:hover,
+      &:focus,
+      &:active {
+        padding: 0 1.5rem;
+        background-color: $grey-dark;
+        transition: all 0.5s ease-in-out;
+      }
+    }
+  }
+
+
+  &__social-media {
+    text-align: center;
+    padding: 5%;
+
+    &__heading {
+      font-weight: bold;
+    }
+
+    &__icons {
+      font-size: 5rem;
+      padding: 1rem;
+    }
+
+    &__icons__link i {
+      color: $grey;
+    }
+
+    &__icons__link i:hover,
+    &__icons__link i:active,
+    &__icons__link i:focus {
+      color: $grey-dark;
+    }
+  }
+}
+
+
+
+

@@ -1,0 +1,32 @@
+.bottom-banner {
+  padding: 1rem 0rem;
+
+  &--menu-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+  }
+
+  &__language, &__contact {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  &__contact a {
+    text-decoration: none;
+  }
+
+  &__language a {
+    text-decoration: none;
+  }
+
+  &__language a:hover,
+  &__contact a:hover {
+    font-weight: normal;
+    transition: all 0.5s ease-in-out;
+  }
+}
+

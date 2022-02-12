@@ -33,7 +33,7 @@
     <!-- Add the slick-theme.css if you want default styling -->
 
     <!--Custom css file -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="compiled-css/style.comp.css">
 
 </head>
 <body class="">
@@ -50,7 +50,7 @@
                      srcset="res/Logo/BU-White-circle-Border-Iconx287.png 287w,
                              res/Logo/BU-White-circle-Border-Iconx150.png 150w,
                              res/Logo/BU-White-circle-Border-Iconx75.png 75w"
-                     sizes="(max-width:900px) 20vw, (max-width: 600px) 30vw, 287px"
+                     sizes="(max-width:900px) 15vw, (max-width: 600px) 20vw, 287px"
                      class="img-fluid navbar-brand-logo mr-3"
                      alt="Brewed up logo">
                 Brewed Up
@@ -142,7 +142,7 @@
                              alt="fog image">
                     </div>
                 </div>
-                <h2 class="page-header__subtitle presentation-subtitle normal-text font-weight-light text-color-light-coffee animate__animated animate__fadeInUp animate__delay-2s pl-3 pr-3">
+                <h2 class="page-header__subtitle presentation-subtitle normal-text font-weight-light text-color-lightest-coffee animate__animated animate__fadeInUp animate__delay-2s pl-3 pr-3">
                     We believe a cup of coffee is one of the most important, simple pleasures in life</h2>
             </div>
         </div>
@@ -164,7 +164,7 @@
 <!--Section 1 - Our coffee + carousel of all products -->
 <section class="section our-coffee">
     <div class="section-heading section-header">
-        <h1 class="text-dark text-center section-heading section-header__main-heading" data-aos="flip-up"> Our
+        <h1 class="text-dark text-center section-heading section-heading--main" data-aos="flip-up"> Our
             Coffee </h1>
         <hr class="section-heading__line section-heading__line--orange section-heading__line--animated">
         <h5 class="text-color-grey text-center font-weight-normal pl-3 pr-3 section-header__description"
@@ -541,7 +541,7 @@
         </section>
     </div>
     <div class="section-content view-our-coffee">
-        <div class="w-100">
+        <div class="w-100 view-our-coffee__image">
             <img src="res/Logo/Coffe-Text-Light-Coffeex1342.png"
                  srcset="res/Logo/Coffe-Text-Light-Coffeex1342.png 1342w,
                         res/Logo/Coffe-Text-Light-Coffeex600.png 600w,
@@ -550,76 +550,80 @@
                  class="coffee-text-image img-fluid view-our-coffee-image">
         </div>
         <div class="w-100 position-absolute view-our-coffee__btn">
-            <a class="brewed-up-btn-dark text-uppercase hvr-sweep-to-top" href="#">View our Coffee</a>
+            <a class="brewed-up-btn brewed-up-btn--dark text-uppercase hvr-sweep-to-top" href="#">View our Coffee</a>
         </div>
     </div>
 </section>
-<section class="we-serve">
-    <section class="section we-serve__content">
+<section class="vertical-gallery section-services">
+    <section class="section vertical-gallery__content">
         <div class="section-heading section-header">
-            <h1 class="text-dark text-center section-heading section-header__main-heading"> We Serve </h1>
+            <h1 class="text-dark text-center section-heading section-heading--main"> We Serve </h1>
             <hr class="section-heading__line section-heading__line--orange section-heading__line--animated">
             <h5 class="text-color-grey text-center font-weight-normal pl-3 pr-3 section-header__description">Coffee
                 Address is committed to
                 positively impacting the quality of life through exceptional cup of coffee</h5>
         </div>
-        <div class="we-serve__content__item we-serve-item-left-aligned  d-flex text-center mt-5">
-            <div class="we-serve-image-caption-left we-serve__item__image-and-caption">
-                <p class="we-serve__item__caption">Coffee at the office</p>
+        <div class="vertical-gallery__content__item vertical-gallery-item-left-aligned  d-flex text-center mt-5">
+            <div class="vertical-gallery-image-caption--left vertical-gallery__item__image-and-caption">
+                <p class="vertical-gallery__item__caption">Coffee at the office</p>
                 <img src="res/Images/Images/Coffee1.jpg" alt="coffee at office" ,
                      srcset="res/Images/Images/Coffee1.jpg 775w, res/Images/Images/Coffee1x500.png 500w" ,
                      sizes="(max-width: 900px) 80vw, (max-width: 600px): 60vw, 775px"
-                     class="we-serve__item__image we-serve__item__image--left img-fluid">
+                     class="vertical-gallery__item__image vertical-gallery__item__image--left img-fluid">
             </div>
-            <div class="we-serve__item__heading we-serve__item__heading--left text-lg-left text-center mt-5 mt-md-0 ">
-                <h1 class="we-serve__item__heading__main we-serve__item__heading__main--left heading-text text-color-coffee d-md-block d-none mb-2">
+            <div class="vertical-gallery__item__heading vertical-gallery__item__heading--left text-lg-left text-center mt-5 mt-md-0 ">
+                <h1 class="vertical-gallery__item__heading__main vertical-gallery__item__heading__main--left heading-text text-color-coffee d-md-block d-none mb-2">
                     Coffee<br>at the office</h1>
-                <a class="brewed-up-btn-light we-serve__item__heading__btn hvr-sweep-to-top text-center" href="#">View
+                <a class="brewed-up-btn brewed-up-btn--light vertical-gallery__item__heading__btn hvr-sweep-to-top text-center"
+                   href="#">View
                     More</a>
             </div>
         </div>
-        <div class="we-serve__content__item we-serve-item-right-aligned d-flex  text-center">
-            <div class="we-serve__item__heading we-serve__item__heading--right text-lg-left text-center mt-5 mt-md-0 ">
-                <h1 class=" we-serve__item__heading__main we-serve__item__heading__main--right heading-text text-color-coffee d-md-block d-none mb-2">
+        <div class="vertical-gallery__content__item vertical-gallery-item-right-aligned d-flex  text-center">
+            <div class="vertical-gallery__item__heading vertical-gallery__item__heading--right text-lg-left text-center mt-5 mt-md-0 ">
+                <h1 class=" vertical-gallery__item__heading__main vertical-gallery__item__heading__main--right heading-text text-color-coffee d-md-block d-none mb-2">
                     Coffee<br>on the go</h1>
-                <a class="brewed-up-btn-light we-serve__item__heading__btn hvr-sweep-to-top text-center" href="#">View
+                <a class="brewed-up-btn brewed-up-btn--light vertical-gallery__item__heading__btn hvr-sweep-to-top text-center"
+                   href="#">View
                     More</a>
             </div>
-            <div class="we-serve-image-caption-right we-serve__item__image-and-caption">
+            <div class="vertical-gallery-image-caption--right vertical-gallery__item__image-and-caption">
                 <img src="res/Images/Images/Coffee3.jpg.png" alt="coffee at office" ,
                      srcset="res/Images/Images/Coffee3.jpg.png 775w, res/Images/Images/Coffee3x500.png 500w" ,
                      sizes="(max-width: 900px) 80vw, (max-width: 600px): 60vw, 775px"
-                     class="we-serve__item__image we-serve__item__image--right img-fluid">
-                <p class="we-serve__item__caption">Coffee on the go</p>
+                     class="vertical-gallery__item__image vertical-gallery__item__image--right img-fluid">
+                <p class="vertical-gallery__item__caption">Coffee on the go</p>
             </div>
         </div>
-        <div class="we-serve__content__item we-serve-item-left-aligned  d-flex text-center">
-            <div class="we-serve-image-caption-left we-serve__item__image-and-caption">
-                <p class="we-serve__item__caption">Coffee in cafe</p>
+        <div class="vertical-gallery__content__item vertical-gallery-item-left-aligned  d-flex text-center">
+            <div class="vertical-gallery-image-caption--left vertical-gallery__item__image-and-caption">
+                <p class="vertical-gallery__item__caption">Coffee in cafe</p>
                 <img src="res/Images/Images/OfficeCoffee2.jpg.png" alt="coffee at office"
                      srcset="res/Images/Images/OfficeCoffee2.jpg.png 775w, res/Images/Images/OfficeCoffee2x500.png 500w"
                      ,
                      sizes="(max-width: 900px) 80vw, (max-width: 600px): 60vw, 775px"
-                     class="we-serve__item__image we-serve__item__image--left img-fluid">
+                     class="vertical-gallery__item__image vertical-gallery__item__image--left img-fluid">
             </div>
-            <div class="we-serve__item__heading we-serve__item__heading--left text-lg-left text-center mt-5 mt-md-0 ">
-                <h1 class=" we-serve__item__heading__main we-serve__item__heading__main--left heading-text text-color-coffee d-md-block d-none mb-2">
+            <div class="vertical-gallery__item__heading vertical-gallery__item__heading--left text-lg-left text-center mt-5 mt-md-0 ">
+                <h1 class=" vertical-gallery__item__heading__main vertical-gallery__item__heading__main--left heading-text text-color-coffee d-md-block d-none mb-2">
                     Coffee<br>in cafe</h1>
-                <a class="brewed-up-btn-light we-serve__item__heading__btn hvr-sweep-to-top text-center" href="#">View
+                <a class="brewed-up-btn brewed-up-btn--light vertical-gallery__item__heading__btn hvr-sweep-to-top text-center"
+                   href="#">View
                     More</a>
             </div>
         </div>
 
     </section>
-    <section class="section we-serve__background">
-        <div class="we-serve__background__bean">
-            <img class="we-serve-background__bean__image img-fluid " src="res/Logo/Bean%20Shape%20Coffeex698.png" ,
+    <section class="section vertical-gallery__background">
+        <div class="vertical-gallery__background__bean">
+            <img class="vertical-gallery-background__bean__image img-fluid "
+                 src="res/Logo/Bean%20Shape%20Coffeex698.png" ,
                  srcset="res/Logo/Bean%20Shape%20Coffeex698.png 698w, res/Logo/Bean%20Shape%20Coffeex300 300w, res/Logo/Bean%20Shape%20Coffeex150 150w"
                  sizes="(max-width: 900px) 80vw, (max-width: 600px): 60vw, 775px"
                  alt="bean shaped image">
         </div>
-        <div class="we-serve-background__beans--top-right">
-            <img class="we-serve-background__beans--top-right__image img-fluid "
+        <div class="vertical-gallery-background__beans--top-right">
+            <img class="vertical-gallery-background__beans--top-right__image img-fluid "
                  src="res/Logo/Beans%20Falling%20Rightx800.png" ,
                  srcset="res/Logo/Beans%20Falling%20Rightx800.png 800w,
                  res/Logo/Beans%20Falling%20Rightx600.png 600w,
@@ -627,8 +631,8 @@
                  sizes="(max-width: 900px) 80vw, (max-width: 600px): 60vw, 867px"
                  alt="coffee bean image">
         </div>
-        <div class="we-serve-background__beans--left-bottom">
-            <img class="we-serve-background__beans--left-bottom__image img-fluid "
+        <div class="vertical-gallery-background__beans--left-bottom">
+            <img class="vertical-gallery-background__beans--left-bottom__image img-fluid "
                  src="res/Logo/Beans%20Falling%20leftx800.png"
                  srcset="res/Logo/Beans%20Falling%20leftx800.png 800w,
                  res/Logo/Beans%20Falling%20leftx600.png 600w,
@@ -642,7 +646,7 @@
 
 <section class="section coffee-and-us">
     <div class="section-heading section-header">
-        <h1 class="text-dark text-center section-heading section-header__main-heading"> Coffee and
+        <h1 class="text-dark text-center section-heading section-heading--main"> Coffee and
             us </h1>
         <hr class="section-heading__line section-heading__line--orange section-heading__line--animated">
         <h5 class="text-color-grey text-center font-weight-normal pl-3 pr-3 section-header__description"
@@ -657,7 +661,7 @@
                     res/Images/Header-Images/Coffee-bean-backgroundx1200.png 1200w,
                     res/Images/Header-Images/Coffee-bean-backgroundx600.png 600w">
         <div class="w-100 coffee-and-us__btn z-index-1">
-            <a class="brewed-up-btn-dark text-uppercase hvr-sweep-to-top" href="#">View our Coffee</a>
+            <a class="brewed-up-btn brewed-up-btn--dark text-uppercase hvr-sweep-to-top" href="#">View our Coffee</a>
         </div>
     </div>
 </section>
@@ -841,7 +845,8 @@
             <div class="sub-footer__newsletter__policy-warning-form normal-text text-color-grey input-group input-group mb-3">
                 <input class="sub-footer__newsletter__check-box form-check-input mt-0" type="checkbox" value=""
                        aria-label="Checkbox for following text input">
-                <span><h2 class="sub-footer__newsletter__policy-warning-form__check-box small-text text-color-grey">Please read the Coffee Address Personal data processing policy here.</h2></span>
+                <span><h2
+                        class="sub-footer__newsletter__policy-warning-form__check-box small-text text-color-grey mt-0 ms-3">Please read the Coffee Address Personal data processing policy here.</h2></span>
             </div>
         </div>
         <div class="sub-footer__social-media form-group col col-lg-6 col-12">
@@ -911,7 +916,7 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
-<script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="animation.js"></script>
 
 </body>
 

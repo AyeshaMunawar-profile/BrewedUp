@@ -1,0 +1,51 @@
+/*General Customizations*/
+:root {
+  font-family: 'Lato', sans-serif !important;
+  /*making all the units in px converted to rem i.e 10px = 1 rem */
+  /*Explanation : */
+  /*according to the default font size of the browser i.e 16 px 1rem = 16px */
+  /*change it ot 10 px i.e 1rem = 10px we-serve__background__bean*/
+  /*change 10px to percentage unit so that if the default font siz eof the browser is changed */
+  /*from 16px to something else by the user the units adjust according to it */
+  font-size: 62.5%;
+  box-sizing: border-box;
+  @include respond(big-desktop) {
+    font-size: 63% !important;
+  }
+  @include respond(tab-land) {
+    font-size: 55% !important;
+  }
+  @include respond(tab-port) {
+    font-size: 50% !important;
+  }
+  @include respond(phone) {
+    font-size: 35% !important;
+  }
+}
+
+* {
+  outline: none;
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  border-bottom: 0.3rem solid $coffee;
+  text-align: center;
+}
+
+hr.section-heading__line {
+  text-align: center;
+  margin: 0 auto !important;
+  width: 100%;
+  max-width: 10rem;
+  opacity: 0.9;
+}
+
+hr.section-heading__line--orange {
+  border-bottom: 0.4rem solid $yellow;
+}

@@ -1,0 +1,146 @@
+.carousel {
+  margin-bottom: 3rem;
+
+  &__content .slick-slide img {
+    width: 40%;
+  }
+
+  &-item {
+    &__stamp {
+      max-width: 10rem;
+      height: auto;
+      margin-left: 70%;
+      @include respond(tab-port) {
+        width: 8rem;
+        height: auto;
+      }
+
+    }
+
+    &__wave {
+      max-width: 5rem;
+      height: auto;
+    }
+
+    &__content {
+      margin-bottom: 5rem !important;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      align-items: center;
+      @include respond(tab-land) {
+        justify-content: space-evenly;
+      }
+      @include respond(phone) {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+    }
+
+    &__main-picture {
+      width: 80rem;
+      height: auto;
+    }
+
+    &__caption {
+      z-index: 1;
+      top: 20%;
+    }
+
+    &__main-heading {
+      margin-top: 1rem;
+    }
+
+    &__sub-heading {
+      margin-top: 0.5rem;
+    }
+  }
+
+  &-item:hover {
+    cursor: pointer;
+  }
+
+}
+
+.slick {
+  @include respond(phone) {
+    height: auto;
+  }
+
+  &:before, &:before {
+    color: $yellow;
+    font-size: 3rem;
+  }
+
+  &-dots {
+    @include respond(phone) {
+      display: none;
+    }
+    z-index: 3;
+    bottom: -8rem;
+
+    & li button:before {
+      font-size: 1.5rem;
+      color: $grey;
+    }
+
+    & li.slick-active button:before {
+      font-size: 2rem;
+      color: $yellow;
+    }
+  }
+
+  &-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+    outline: none;
+    margin: 0 2rem;
+
+    & img {
+      width: 100%;
+    }
+
+    &:active,
+    &:active {
+      border: none;
+      outline: none;
+    }
+  }
+
+
+  &-active {
+    opacity: .5;
+  }
+
+  &-current {
+    opacity: 1;
+  }
+}
+
+
+.slider {
+  width: 95%;
+  margin: 2rem auto;
+  background-color: transparent;
+}
+
+
+.box-border {
+  border: 1rem solid $coffee-opacity-4;
+  position: absolute;
+  top: 2.5rem;
+  width: 95%;
+  height: 94%;
+  z-index: -1;
+}
+
+.box-border-dark {
+  border: 1rem solid $coffee-opacity-8;
+  transition: all 0.5s ease-in-out;
+}
+
+
+

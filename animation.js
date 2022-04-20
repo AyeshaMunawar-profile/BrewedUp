@@ -53,19 +53,19 @@ $(document).ready(function () {
             // },
             scrub: 1,
             start: "top center",
-            end: () => "+=" + document.querySelector(".we-serve__content").offsetHeight
+            end: () => "+=" + document.getElementById("vertical-gallery-services").offsetHeight
         }
     });
     beanAnimationTimeline.to(".vertical-gallery__background__bean", {
-        x: "-=" + (document.querySelector(".we-serve__content").offsetWidth) * 0.75,
-        y: "+=" + (document.querySelector(".we-serve__content").offsetHeight) / 3,
+        x: "-=" + (document.getElementById("vertical-gallery-services").offsetWidth) * 0.75,
+        y: "+=" + (document.getElementById("vertical-gallery-services").offsetHeight) / 3,
         rotation: 180,
         duration: 1,
         scale: 1.7
     })
         .to(".vertical-gallery__background__bean", {
-            x: "+=" + (document.querySelector(".we-serve__content").offsetWidth) * 0.65,
-            y: "+=" + ((document.querySelector(".we-serve__content").offsetHeight) - (document.querySelector(".we-serve__content").offsetHeight) / 1.8),
+            x: "+=" + (document.getElementById("vertical-gallery-services").offsetWidth) * 0.65,
+            y: "+=" + ((document.getElementById("vertical-gallery-services").offsetHeight) - (document.getElementById("vertical-gallery-services").offsetHeight) / 1.8),
             rotation: -180,
             duration: 1,
             scale: 1

@@ -5,7 +5,7 @@ This is a landing page of a company "Brewed Up" .
 
 ## DEMO
 
- <img src="/demo/brewed-up-demo-final.gif" width="1200" height="600" alt="Expense Management System Demo"/>
+ <img src="/demo/brewed-up-demo-final.gif" width="1200" height="650" alt="Expense Management System Demo"/>
 
 **Coffee and Us**
 
@@ -30,7 +30,7 @@ mission: to make an office and on-the-go cup of coffee that we’d like to drink
 **Features**
 1) The website provides a form for the user who want to subscribe to our companies updates and newsletter
 
-    <img src="/demo/footer.png" width="1912" height="500" alt="Expense Management System Demo"/>
+    <img src="/demo/footer.png" width="1912" height="400" alt="Expense Management System Demo"/>
 
     <img src="/demo/cutom%20custom%20buttons.png" width="1786" height="300" alt="Expense Management System Demo"/>
 

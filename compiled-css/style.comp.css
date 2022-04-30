@@ -534,38 +534,35 @@ hr.section-heading__line--orange {
 
 .sub-footer__newsletter {
   padding: 5%; }
-
-.sub-footer__newsletter__check-box {
-  margin-top: 0;
-  margin-left: 1rem; }
-  .sub-footer__newsletter__check-box:checked {
-    background-color: #b9a787;
-    color: #fffffe;
-    border-color: #f9f4ef;
-    box-shadow: none;
-    outline: 1px solid #b9a787; }
-  .sub-footer__newsletter__check-box:focus {
-    box-shadow: none;
-    outline: none;
-    border-color: #b9a787; }
-
-.sub-footer__newsletter__policy-warning-form {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: start;
-  align-items: center; }
-  .sub-footer__newsletter__policy-warning-form__checkbox {
-    margin-top: 0 !important;
-    margin-left: 2rem !important; }
-
-.sub-footer__newsletter__subscription-form__subscribe-btn {
-  padding: 0 1.5rem;
-  background-color: #787878;
-  color: white; }
-  .sub-footer__newsletter__subscription-form__subscribe-btn:hover, .sub-footer__newsletter__subscription-form__subscribe-btn:focus, .sub-footer__newsletter__subscription-form__subscribe-btn:active {
+  .sub-footer__newsletter__check-box {
+    margin-top: 0;
+    margin-left: 1rem; }
+    .sub-footer__newsletter__check-box:checked {
+      background-color: #b9a787;
+      color: #fffffe;
+      border-color: #f9f4ef;
+      box-shadow: none;
+      outline: 1px solid #b9a787; }
+    .sub-footer__newsletter__check-box:focus {
+      box-shadow: none;
+      outline: none;
+      border-color: #b9a787; }
+  .sub-footer__newsletter__policy-warning-form {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center; }
+    .sub-footer__newsletter__policy-warning-form__checkbox {
+      margin-top: 0 !important;
+      margin-left: 2rem !important; }
+  .sub-footer__newsletter__subscription-form__subscribe-btn {
     padding: 0 1.5rem;
-    background-color: #515151;
-    transition: all 0.5s ease-in-out; }
+    background-color: #787878;
+    color: white; }
+    .sub-footer__newsletter__subscription-form__subscribe-btn:hover, .sub-footer__newsletter__subscription-form__subscribe-btn:focus, .sub-footer__newsletter__subscription-form__subscribe-btn:active {
+      padding: 0 1.5rem;
+      background-color: #515151;
+      transition: all 0.5s ease-in-out; }
 
 .sub-footer__social-media {
   text-align: center;
